@@ -1,0 +1,21 @@
+task_id: generate_ioi_dataset
+description: Generate deterministic IOI dataset following the Indirect Object Identification paper
+
+entrypoint: src/data/dataset.py:generate_ioi_dataset
+
+parameters:
+  n_examples: 200
+  template: "ABBA"
+  seed: 123
+
+artifacts:
+  - path: data/ioi_abba.json
+    description: Generated IOI dataset with ABBA templates
+
+metrics:
+  - name: num_examples
+    description: Number of examples generated
+
+assertions:
+  - condition: "metrics['num_examples'] == parameters['n_examples']"
+    description: Number of generated prompts must equal n_examples
