@@ -145,7 +145,8 @@ def compute_logit_diff(
 
 
 def run_baseline(
-    dataset_path: str,
+    model_or_dataset_path,
+    dataset_path: Optional[str] = None,
     model_name: str = "gpt2-small",
     device: str = "cpu",
     max_examples: Optional[int] = None
@@ -161,7 +162,8 @@ def run_baseline(
     5. Compute accuracy (fraction where IO is top prediction)
 
     Args:
-        dataset_path: Path to IOI dataset JSON file
+        model_or_dataset_path: Either a pre-loaded model or path to dataset JSON
+        dataset_path: Path to dataset JSON (if first arg is a model)
         model_name: Model to use (default: "gpt2-small")
         device: Device to run on ("cpu", "cuda", "mps")
         max_examples: Optional limit on number of examples to evaluate
@@ -171,17 +173,28 @@ def run_baseline(
             - accuracy: Fraction where model predicts IO token (correct answer)
             - mean_logit_diff: Average logit(IO) - logit(S)
             - median_logit_diff: Median logit difference
+            - std_logit_diff: Standard deviation of logit difference
             - per_example_results: List of dicts with per-example metrics
             - num_examples: Number of examples evaluated
 
     Example:
         >>> results = run_baseline("data/ioi_abba.json", device="cuda")
-        >>> print(f"Accuracy: {results['accuracy']:.2%}")
-        >>> print(f"Mean logit diff: {results['mean_logit_diff']:.3f}")
+        >>> # Or with pre-loaded model:
+        >>> results = run_baseline(model, "data/ioi_abba.json")
     """
+    # Determine if first arg is a model or dataset path
+    if isinstance(model_or_dataset_path, str):
+        # First arg is dataset path (old signature)
+        dataset_path_to_use = model_or_dataset_path
+        model = None
+    else:
+        # First arg is a model
+        model = model_or_dataset_path
+        dataset_path_to_use = dataset_path
+
     # Load dataset
-    print(f"Loading dataset from {dataset_path}...")
-    with open(dataset_path, 'r') as f:
+    print(f"Loading dataset from {dataset_path_to_use}...")
+    with open(dataset_path_to_use, 'r') as f:
         dataset = json.load(f)
 
     if max_examples is not None:
@@ -189,10 +202,11 @@ def run_baseline(
 
     print(f"Loaded {len(dataset)} examples")
 
-    # Load model
-    print(f"\nLoading {model_name}...")
-    result = load_ioi_model(device=device)
-    model = result["model"]
+    # Load model if not provided
+    if model is None:
+        print(f"\nLoading {model_name}...")
+        result = load_ioi_model(device=device)
+        model = result["model"]
 
     print("\nRunning baseline evaluation...")
 
@@ -210,9 +224,9 @@ def run_baseline(
         name_io = example["B"]  # IO is B in ABBA template (correct answer)
         name_s = example["A"]   # S is A in ABBA template (subject)
 
-        # Get token IDs for IO and S
-        io_token_id = model.to_single_token(name_io)
-        s_token_id = model.to_single_token(name_s)
+        # Get token IDs for IO and S (with space prefix for proper GPT-2 tokenization)
+        io_token_id = model.to_single_token(" " + name_io)
+        s_token_id = model.to_single_token(" " + name_s)
 
         # Run model to get logits
         with torch.no_grad():

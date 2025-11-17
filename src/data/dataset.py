@@ -157,6 +157,8 @@ def generate_ioi_dataset(n_examples: int, template: str, seed: int) -> Dict[str,
                 "B": name_b,
                 "C": name_c,
                 "correct": correct,
+                "io_name": name_b,  # Indirect object (correct answer)
+                "s_name": name_a,   # Subject (appears twice)
                 "template": "ABBA"
             })
 
@@ -174,6 +176,8 @@ def generate_ioi_dataset(n_examples: int, template: str, seed: int) -> Dict[str,
                 "B": name_b,
                 "C": name_c,
                 "correct": name_b,  # Still B in the context
+                "io_name": name_b,  # Indirect object
+                "s_name": name_a,   # Subject
                 "template": "ABC"
             })
 
@@ -181,8 +185,9 @@ def generate_ioi_dataset(n_examples: int, template: str, seed: int) -> Dict[str,
     data_dir = Path("data")
     data_dir.mkdir(exist_ok=True)
 
-    # Save dataset
-    save_path = data_dir / "ioi_abba.json"
+    # Save dataset with appropriate filename based on template
+    filename = f"ioi_{template.lower()}.json"
+    save_path = data_dir / filename
     with open(save_path, 'w') as f:
         json.dump(dataset, f, indent=2)
 
@@ -191,6 +196,21 @@ def generate_ioi_dataset(n_examples: int, template: str, seed: int) -> Dict[str,
         "num_examples": n_examples,
         "save_path": str(save_path)
     }
+
+
+def load_ioi_dataset(path: str) -> List[Dict[str, Any]]:
+    """
+    Load IOI dataset from JSON file.
+
+    Args:
+        path: Path to the JSON file
+
+    Returns:
+        List of dataset examples
+    """
+    with open(path, 'r') as f:
+        dataset = json.load(f)
+    return dataset
 
 
 if __name__ == "__main__":
