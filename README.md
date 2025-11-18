@@ -203,7 +203,6 @@ IOI_implementation/
 │   ├── figure8_individual_trajectories.png # Spaghetti plot
 │   └── discovered_ioi_circuit.json      # Full circuit specification
 ├── README.md                        # This file
-├── RESEARCH_PAPER.md                # Full research paper (12,500 words)
 ├── REPOSITORY_STRUCTURE.md          # Complete repository documentation
 ├── generate_all_figures.py          # Automated figure generation
 └── requirements.txt                 # Python dependencies
@@ -447,17 +446,6 @@ And if using this replication specifically:
 - [ARENA 1.4 Tutorial](https://arena-ch1-transformers.streamlit.app/)
 - [Logit Lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens) (nostalgebraist, 2020)
 
-## Contributing
-
-This is a research replication project. Issues and pull requests welcome, especially for:
-- Improving circuit discovery thresholds
-- Adding more visualization types
-- Extending to other tasks/models
-- Performance optimizations
-
-## License
-
-MIT License - see LICENSE file for details
 
 ## Acknowledgments
 
@@ -467,11 +455,8 @@ MIT License - see LICENSE file for details
 - nostalgebraist for the logit lens technique
 - Anthropic Claude (Scribe) for AI-assisted implementation
 
-**Note**: This implementation is independent of the ARENA tutorial, using modular architecture and including novel extensions. See RESEARCH_PAPER.md Section 7 for AI collaboration methodology.
 
 ---
-
-**Project Status**: ✅ Production Ready - Publication Quality
 
 **Test Coverage**: 99.2% (130/131 tests passing, 1 skipped)
 
