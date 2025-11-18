@@ -113,7 +113,7 @@ class TestIOIBaseline:
     def test_run_baseline_structure(self, sample_dataset):
         """Test that run_baseline returns correct structure."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=5
         )
@@ -135,7 +135,7 @@ class TestIOIBaseline:
     def test_run_baseline_metrics_range(self, sample_dataset):
         """Test that metrics are in expected ranges."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=5
         )
@@ -153,7 +153,7 @@ class TestIOIBaseline:
     def test_run_baseline_per_example_structure(self, sample_dataset):
         """Test per-example results structure."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=3
         )
@@ -185,13 +185,13 @@ class TestIOIBaseline:
     def test_run_baseline_deterministic(self, sample_dataset):
         """Test that baseline is deterministic with same dataset."""
         results1 = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=5
         )
 
         results2 = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=5
         )
@@ -204,7 +204,7 @@ class TestIOIBaseline:
     def test_run_baseline_max_examples(self, sample_dataset):
         """Test that max_examples limits evaluation."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=3
         )
@@ -215,7 +215,7 @@ class TestIOIBaseline:
     def test_save_baseline_results(self, sample_dataset, tmp_path):
         """Test saving results to JSON."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=5
         )
@@ -236,7 +236,7 @@ class TestIOIBaseline:
     def test_analyze_errors(self, sample_dataset):
         """Test error analysis function."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=10
         )
@@ -279,7 +279,7 @@ class TestIOIBaseline:
         dataset_path = "data/ioi_abba.json"
 
         results = run_baseline(
-            dataset_path=dataset_path,
+            dataset_path,
             device="cpu",
             max_examples=5
         )
@@ -296,7 +296,7 @@ class TestIOIBaseline:
     def test_run_baseline_cuda(self, sample_dataset):
         """Test running baseline on CUDA."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cuda",
             max_examples=3
         )
@@ -307,7 +307,7 @@ class TestIOIBaseline:
     def test_top_k_predictions(self, sample_dataset):
         """Test that top-k predictions are captured."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=3
         )
@@ -327,7 +327,7 @@ class TestIOIBaseline:
     def test_accuracy_consistency(self, sample_dataset):
         """Test that accuracy matches counted correct predictions."""
         results = run_baseline(
-            dataset_path=sample_dataset,
+            sample_dataset,
             device="cpu",
             max_examples=10
         )

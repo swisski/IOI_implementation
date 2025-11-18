@@ -118,8 +118,8 @@ class TestDatasetGeneration:
                     tokens = self.tokenizer.encode(name, add_special_tokens=False)
                     assert len(tokens) == 1, f"Name '{name}' should be single token, got {tokens}"
 
-    def test_corrupted_abc_prompts_differ_from_abba(self):
-        """Assert that corrupted ABC prompts differ from ABBA ones."""
+    def test_corrupted_prompts_swap_subject(self):
+        """Assert that corrupted prompts swap the subject (A→B) in same template."""
         result = generate_ioi_dataset(n_examples=50, template="ABBA", seed=111)
 
         with open("data/ioi_abba.json", 'r') as f:
@@ -128,31 +128,40 @@ class TestDatasetGeneration:
         for example in dataset:
             prompt = example["prompt"]
             corrupted_prompt = example["corrupted_prompt"]
-
-            # Prompts should be different
-            assert prompt != corrupted_prompt, "ABBA and ABC prompts should differ"
-
-            # Verify structure of both
             name_a = example["A"]
             name_b = example["B"]
-            name_c = example["C"]
 
-            # ABBA: prompt should match one of the ABBA templates
-            matches_abba = False
+            # Prompts should be different
+            assert prompt != corrupted_prompt, "Clean and corrupted prompts should differ"
+
+            # Clean: A appears twice
+            assert prompt.count(name_a) == 2, f"Clean prompt should have 2 occurrences of A ({name_a})"
+            assert prompt.count(name_b) == 1, f"Clean prompt should have 1 occurrence of B ({name_b})"
+
+            # Corrupted: B appears twice (subject swapped from A to B)
+            assert corrupted_prompt.count(name_a) == 1, f"Corrupted prompt should have 1 occurrence of A ({name_a})"
+            assert corrupted_prompt.count(name_b) == 2, f"Corrupted prompt should have 2 occurrences of B ({name_b})"
+
+            # Verify the structure matches an ABBA template with B as subject
+            # The second occurrence should be swapped
+            # E.g., "When A and B went..., A gave..." → "When A and B went..., B gave..."
+            assert name_a in corrupted_prompt, "Corrupted should still contain A"
+            assert name_b in corrupted_prompt, "Corrupted should still contain B"
+
+            # Both should end the same way (incomplete sentence ending)
+            # The template structure should be preserved
             for template in ABBA_TEMPLATES:
-                expected = generate_abba_prompt(name_a, name_b, template)
-                if prompt == expected:
-                    matches_abba = True
-                    break
-            assert matches_abba, "ABBA prompt should match one of the templates"
-
-            # ABC: corrupted prompt should match ABC template
-            expected_abc = generate_abc_prompt(name_a, name_b, name_c, ABC_TEMPLATE)
-            assert corrupted_prompt == expected_abc, "ABC prompt should match template"
-
-            # C should be different from A and B
-            assert name_c != name_a, "Name C should differ from A in corrupted version"
-            assert name_c != name_b, "Name C should differ from B in corrupted version"
+                # Check if clean matches this template
+                expected_clean = template.replace("[A]", name_a).replace("[B]", name_b)
+                if prompt == expected_clean:
+                    # Corrupted should be same template but with second A→B
+                    # This is what our new logic does
+                    parts = expected_clean.split(name_a)
+                    if len(parts) >= 3:
+                        expected_corrupted = name_a.join(parts[:2]) + name_b + name_a.join(parts[2:])
+                        assert corrupted_prompt == expected_corrupted, \
+                            f"Corrupted prompt should swap second A→B in same template"
+                        break
 
     def test_template_functions(self):
         """Test individual template generation functions."""
@@ -193,7 +202,8 @@ class TestDatasetGeneration:
         """Test generating ABC template only (without ABBA)."""
         result = generate_ioi_dataset(n_examples=30, template="ABC", seed=333)
 
-        with open("data/ioi_abba.json", 'r') as f:
+        # ABC template saves to ioi_abc.json
+        with open("data/ioi_abc.json", 'r') as f:
             dataset = json.load(f)
 
         for example in dataset:

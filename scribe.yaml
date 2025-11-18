@@ -1,4 +1,0 @@
-project_name: IOI-Replication
-default_provider: claude
-notebooks_dir: notebooks
-tasks_dir: tasks

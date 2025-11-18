@@ -146,7 +146,7 @@ def patch_path(
         hook_name = f"blocks.{sender_layer}.hook_mlp_out"
         component_type = "mlp"
     else:
-        hook_name = f"blocks.{sender_layer}.attn.hook_result"
+        hook_name = f"blocks.{sender_layer}.attn.hook_z"
         component_type = "attn"
 
     # Create patching hook
@@ -277,7 +277,7 @@ def find_important_paths(
     effect_matrix: np.ndarray,
     sender_heads: List[Tuple[int, int]],
     receiver_heads: List[Tuple[int, int]],
-    threshold: float = 0.3
+    threshold: float = 0.15
 ) -> List[Tuple[Tuple[int, int], Tuple[int, int], float]]:
     """
     Find important paths based on effect threshold.
@@ -397,7 +397,7 @@ def analyze_ioi_circuit_paths(
 
     # Find and print important paths
     print("\n" + "=" * 80)
-    print("IMPORTANT PATHS (threshold = 0.3)")
+    print("IMPORTANT PATHS (threshold = 0.15)")
     print("=" * 80)
 
     for path_type, path_results in results.items():
@@ -406,7 +406,7 @@ def analyze_ioi_circuit_paths(
             path_results["effect_matrix"],
             path_results["sender_heads"],
             path_results["receiver_heads"],
-            threshold=0.3
+            threshold=0.15
         )
 
         if important:

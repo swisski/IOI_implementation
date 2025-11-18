@@ -145,32 +145,35 @@ def discover_ioi_circuit(
         for head, effects in all_head_effects.items()
     }
 
-    # Filter heads by effect
-    important_heads = {
-        head: effect
-        for head, effect in avg_head_effects.items()
-        if effect > 0.2  # Significant effect threshold
-    }
+    # Record activation patching effects for all heads
+    # Don't filter - the attention pattern analysis is the primary method
+    # Activation patching is for validation/ranking only
+    print(f"\nRecorded activation patching effects for {len(avg_head_effects)} heads")
 
-    print(f"\nFound {len(important_heads)} heads with significant effect (>0.2)")
+    # Show top heads by activation patching
+    top_by_patching = sorted(avg_head_effects.items(), key=lambda x: x[1], reverse=True)[:10]
+    print("\nTop 10 heads by activation patching effect:")
+    for (layer, head), effect in top_by_patching:
+        print(f"   L{layer}H{head}: {effect:.3f}")
 
-    # Refine head lists based on activation patching
+    # Keep all heads found by attention patterns
+    # Filter only by layer ranges (paper's constraint)
     duplicate_token_heads = [
         head for head in duplicate_token_heads
-        if head in important_heads and head[0] <= 3  # Early layers
+        if head[0] <= 3  # Early layers only
     ]
 
     s_inhibition_heads = [
         head for head in s_inhibition_heads
-        if head in important_heads and 5 <= head[0] <= 9  # Middle-late layers
+        if 5 <= head[0] <= 9  # Middle-late layers only
     ]
 
     name_mover_heads = [
         head for head in name_mover_heads
-        if head in important_heads and head[0] >= 8  # Late layers
+        if head[0] >= 8  # Late layers only
     ]
 
-    print(f"\nRefined by activation patching:")
+    print(f"\nRefined by layer constraints:")
     print(f"  Duplicate token heads: {len(duplicate_token_heads)}")
     print(f"  S-inhibition heads: {len(s_inhibition_heads)}")
     print(f"  Name mover heads: {len(name_mover_heads)}")

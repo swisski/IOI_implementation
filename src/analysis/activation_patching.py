@@ -228,7 +228,7 @@ def patch_attention_output(
         return activation
 
     with torch.no_grad():
-        hook_name = f"blocks.{layer_idx}.attn.hook_result"
+        hook_name = f"blocks.{layer_idx}.attn.hook_z"
         patched_logits = model.run_with_hooks(
             corrupted_tokens,
             fwd_hooks=[(hook_name, patch_hook)]

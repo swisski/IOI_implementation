@@ -1,0 +1,33 @@
+================================================================================
+IOI CIRCUIT REPLICATION VALIDATION SUMMARY
+================================================================================
+
+Date: 2025-11-17 11:25:07
+Model: GPT-2 Small
+Device: cuda
+
+BASELINE PERFORMANCE
+----------------------------------------
+Accuracy: 87.0%
+Mean Logit Diff: 4.036 ± 1.633
+
+DISCOVERED CIRCUIT
+----------------------------------------
+Duplicate Token Heads: 0
+S-Inhibition Heads: 0
+Name Mover Heads: 0
+Critical Paths: 0
+
+VALIDATION RESULTS
+----------------------------------------
+                  test status value
+     Baseline Accuracy   FAIL 87.0%
+      Logit Difference   PASS 4.036
+  Name Mover Discovery   PASS   3/4
+S-Inhibition Discovery   PASS   2/4
+ Duplicate Head Layers   PASS   4/4
+            SI→NM Path   FAIL 0.000
+   Circuit Attribution   FAIL  0.0%
+
+SUMMARY: 4 PASS | 3 FAIL | 0 SKIP
+Pass Rate: 57.1%

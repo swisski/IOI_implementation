@@ -144,11 +144,26 @@ def generate_ioi_dataset(n_examples: int, template: str, seed: int) -> Dict[str,
             prompt = generate_abba_prompt(name_a, name_b, chosen_template)
             correct = name_b
 
-            # Also generate corrupted ABC version
+            # Generate corrupted version by swapping the subject
+            # In ABBA template: "[A] and [B] ... [A] gave/passed/handed ..."
+            # Corrupted should be: "[A] and [B] ... [B] gave/passed/handed ..."
+            # This swaps the subject from A to B, making B appear twice
+            # Strategy: Find the SECOND occurrence of name_a and replace it with name_b
+            # The first occurrence is in "[A] and [B]", the second is the subject
+
+            # Split on name_a, replace the second occurrence
+            parts = prompt.split(name_a)
+            if len(parts) >= 3:  # Should have at least 2 occurrences of name_a
+                # Rejoin: first occurrence + middle + second occurrence replaced
+                corrupted_prompt = name_a.join(parts[:2]) + name_b + name_a.join(parts[2:])
+            else:
+                # Fallback: if template doesn't match expected pattern, keep original
+                corrupted_prompt = prompt
+
+            # Also generate ABC version for reference (not used for patching)
             # C must be different from both A and B
             available_names = [n for n in SINGLE_TOKEN_NAMES if n not in [name_a, name_b]]
             name_c = random.choice(available_names)
-            corrupted_prompt = generate_abc_prompt(name_a, name_b, name_c, ABC_TEMPLATE)
 
             dataset.append({
                 "prompt": prompt,

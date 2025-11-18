@@ -95,8 +95,8 @@ def compute_logit_attribution(
 
     for layer in range(n_layers):
         # Get attention head outputs
-        # cache["result", layer] has shape (batch, seq, n_heads, d_head)
-        attn_out = cache["result", layer]  # (batch, seq, n_heads, d_head)
+        # cache["z", layer] has shape (batch, seq, n_heads, d_head)
+        attn_out = cache["z", layer]  # (batch, seq, n_heads, d_head)
 
         # Get output weights for this layer
         W_O = model.W_O[layer]  # Shape: (n_heads, d_head, d_model)

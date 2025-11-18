@@ -1,0 +1,4502 @@
+[
+  {
+    "prompt": "Anna and Aaron visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Aaron, and Frank met at the store, Frank gave a bottle to",
+    "A": "Anna",
+    "B": "Aaron",
+    "C": "Frank",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Brandon went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Brandon, and William met at the store, William gave a bottle to",
+    "A": "David",
+    "B": "Brandon",
+    "C": "William",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and Victoria talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, Victoria, and Alan met at the store, Alan gave a bottle to",
+    "A": "Alex",
+    "B": "Victoria",
+    "C": "Alan",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Alex left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Alex, and Frank met at the store, Frank gave a bottle to",
+    "A": "Aaron",
+    "B": "Alex",
+    "C": "Frank",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Aaron left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Aaron, and William met at the store, William gave a bottle to",
+    "A": "Sarah",
+    "B": "Aaron",
+    "C": "William",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and David talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, David, and Frank met at the store, Frank gave a bottle to",
+    "A": "Kate",
+    "B": "David",
+    "C": "Frank",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Aaron and Brian talked and Aaron gave a snack to",
+    "corrupted_prompt": "When Aaron, Brian, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Aaron",
+    "B": "Brian",
+    "C": "Kyle",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Elizabeth and Brandon left the house, Elizabeth passed a note to",
+    "corrupted_prompt": "When Elizabeth, Brandon, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Brandon",
+    "C": "Kyle",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Alex talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Alex, and Brian met at the store, Brian gave a bottle to",
+    "A": "Anna",
+    "B": "Alex",
+    "C": "Brian",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and William visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, William, and Alan met at the store, Alan gave a bottle to",
+    "A": "Jessica",
+    "B": "William",
+    "C": "Alan",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Madison and Thomas went to the store, Madison gave a bottle to",
+    "corrupted_prompt": "When Madison, Thomas, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Madison",
+    "B": "Thomas",
+    "C": "Kyle",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Thomas visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Thomas, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Alex",
+    "B": "Thomas",
+    "C": "Kyle",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Clark went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Clark, and Alan met at the store, Alan gave a bottle to",
+    "A": "Victoria",
+    "B": "Clark",
+    "C": "Alan",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Frank went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Frank, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "David",
+    "B": "Frank",
+    "C": "Elizabeth",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Kyle visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Kyle, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Anna",
+    "B": "Kyle",
+    "C": "Sarah",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and Brian visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, Brian, and Kate met at the store, Kate gave a bottle to",
+    "A": "Jessica",
+    "B": "Brian",
+    "C": "Kate",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Clark and Elizabeth went to the store, Clark gave a bottle to",
+    "corrupted_prompt": "When Clark, Elizabeth, and Brian met at the store, Brian gave a bottle to",
+    "A": "Clark",
+    "B": "Elizabeth",
+    "C": "Brian",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and David left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, David, and Paul met at the store, Paul gave a bottle to",
+    "A": "Thomas",
+    "B": "David",
+    "C": "Paul",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and Elizabeth left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, Elizabeth, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Kyle",
+    "B": "Elizabeth",
+    "C": "Jessica",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alan and David went to the store, Alan gave a bottle to",
+    "corrupted_prompt": "When Alan, David, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Alan",
+    "B": "David",
+    "C": "Kyle",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Elizabeth went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Elizabeth, and Clark met at the store, Clark gave a bottle to",
+    "A": "Kyle",
+    "B": "Elizabeth",
+    "C": "Clark",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and George left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, George, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "George",
+    "C": "Sarah",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and Madison left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, Madison, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Kyle",
+    "B": "Madison",
+    "C": "Elizabeth",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and David visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, David, and Paul met at the store, Paul gave a bottle to",
+    "A": "Brandon",
+    "B": "David",
+    "C": "Paul",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Kyle visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Kyle, and David met at the store, David gave a bottle to",
+    "A": "Victoria",
+    "B": "Kyle",
+    "C": "David",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Sarah talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Sarah, and Alex met at the store, Alex gave a bottle to",
+    "A": "Brandon",
+    "B": "Sarah",
+    "C": "Alex",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Anna left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Anna, and David met at the store, David gave a bottle to",
+    "A": "Alan",
+    "B": "Anna",
+    "C": "David",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and Alex talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, Alex, and Madison met at the store, Madison gave a bottle to",
+    "A": "Kate",
+    "B": "Alex",
+    "C": "Madison",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "William and Madison visited the garden, and William handed a flower to",
+    "corrupted_prompt": "When William, Madison, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "William",
+    "B": "Madison",
+    "C": "Victoria",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Anna visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Anna, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Aaron",
+    "B": "Anna",
+    "C": "Kyle",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Frank talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Frank, and Clark met at the store, Clark gave a bottle to",
+    "A": "Anna",
+    "B": "Frank",
+    "C": "Clark",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Madison and Aaron visited the garden, and Madison handed a flower to",
+    "corrupted_prompt": "When Madison, Aaron, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Madison",
+    "B": "Aaron",
+    "C": "Victoria",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Sarah went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Sarah, and George met at the store, George gave a bottle to",
+    "A": "Brian",
+    "B": "Sarah",
+    "C": "George",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Clark left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Clark, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Sarah",
+    "B": "Clark",
+    "C": "Kyle",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Thomas went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Thomas, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Brian",
+    "B": "Thomas",
+    "C": "Jessica",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Paul and Aaron went to the store, Paul gave a bottle to",
+    "corrupted_prompt": "When Paul, Aaron, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Paul",
+    "B": "Aaron",
+    "C": "Kyle",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and David went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, David, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Frank",
+    "B": "David",
+    "C": "Elizabeth",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Alex went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Alex, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Alex",
+    "C": "Sarah",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alex and Thomas left the house, Alex passed a note to",
+    "corrupted_prompt": "When Alex, Thomas, and Brian met at the store, Brian gave a bottle to",
+    "A": "Alex",
+    "B": "Thomas",
+    "C": "Brian",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Thomas left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Thomas, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Paul",
+    "B": "Thomas",
+    "C": "Elizabeth",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Kate left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Kate, and William met at the store, William gave a bottle to",
+    "A": "Sarah",
+    "B": "Kate",
+    "C": "William",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Frank talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Frank, and Kate met at the store, Kate gave a bottle to",
+    "A": "Clark",
+    "B": "Frank",
+    "C": "Kate",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Sarah talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Sarah, and Anna met at the store, Anna gave a bottle to",
+    "A": "Madison",
+    "B": "Sarah",
+    "C": "Anna",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and William went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, William, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "David",
+    "B": "William",
+    "C": "Jessica",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Victoria left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Victoria, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Aaron",
+    "B": "Victoria",
+    "C": "Elizabeth",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Aaron and Alex went to the store, Aaron gave a bottle to",
+    "corrupted_prompt": "When Aaron, Alex, and Frank met at the store, Frank gave a bottle to",
+    "A": "Aaron",
+    "B": "Alex",
+    "C": "Frank",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Alan visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Alan, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Alex",
+    "B": "Alan",
+    "C": "Brandon",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Sarah and David visited the garden, and Sarah handed a flower to",
+    "corrupted_prompt": "When Sarah, David, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Sarah",
+    "B": "David",
+    "C": "Thomas",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and Thomas left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, Thomas, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Clark",
+    "B": "Thomas",
+    "C": "Sarah",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Paul talked and David gave a snack to",
+    "corrupted_prompt": "When David, Paul, and Clark met at the store, Clark gave a bottle to",
+    "A": "David",
+    "B": "Paul",
+    "C": "Clark",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and William talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, William, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Anna",
+    "B": "William",
+    "C": "Kyle",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and William talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, William, and Alan met at the store, Alan gave a bottle to",
+    "A": "Kate",
+    "B": "William",
+    "C": "Alan",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Alan talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Alan, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Anna",
+    "B": "Alan",
+    "C": "Kyle",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and David left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, David, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Anna",
+    "B": "David",
+    "C": "Elizabeth",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and Madison left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, Madison, and Kate met at the store, Kate gave a bottle to",
+    "A": "Thomas",
+    "B": "Madison",
+    "C": "Kate",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brian and Elizabeth talked and Brian gave a snack to",
+    "corrupted_prompt": "When Brian, Elizabeth, and Frank met at the store, Frank gave a bottle to",
+    "A": "Brian",
+    "B": "Elizabeth",
+    "C": "Frank",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alex and Madison went to the store, Alex gave a bottle to",
+    "corrupted_prompt": "When Alex, Madison, and Alan met at the store, Alan gave a bottle to",
+    "A": "Alex",
+    "B": "Madison",
+    "C": "Alan",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and Aaron went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, Aaron, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Thomas",
+    "B": "Aaron",
+    "C": "Elizabeth",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brian and Kate talked and Brian gave a snack to",
+    "corrupted_prompt": "When Brian, Kate, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Brian",
+    "B": "Kate",
+    "C": "Thomas",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Clark and Kyle went to the store, Clark gave a bottle to",
+    "corrupted_prompt": "When Clark, Kyle, and Brian met at the store, Brian gave a bottle to",
+    "A": "Clark",
+    "B": "Kyle",
+    "C": "Brian",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kyle and Aaron talked and Kyle gave a snack to",
+    "corrupted_prompt": "When Kyle, Aaron, and Frank met at the store, Frank gave a bottle to",
+    "A": "Kyle",
+    "B": "Aaron",
+    "C": "Frank",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Frank talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Frank, and William met at the store, William gave a bottle to",
+    "A": "Madison",
+    "B": "Frank",
+    "C": "William",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Brandon left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Brandon, and George met at the store, George gave a bottle to",
+    "A": "Paul",
+    "B": "Brandon",
+    "C": "George",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Clark and Alan went to the store, Clark gave a bottle to",
+    "corrupted_prompt": "When Clark, Alan, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Clark",
+    "B": "Alan",
+    "C": "Kyle",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and William talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, William, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Alan",
+    "B": "William",
+    "C": "Thomas",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Brian went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Brian, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Sarah",
+    "B": "Brian",
+    "C": "Victoria",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alex and Brian went to the store, Alex gave a bottle to",
+    "corrupted_prompt": "When Alex, Brian, and Anna met at the store, Anna gave a bottle to",
+    "A": "Alex",
+    "B": "Brian",
+    "C": "Anna",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Kyle went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Kyle, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "David",
+    "B": "Kyle",
+    "C": "Elizabeth",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Alan went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Alan, and Madison met at the store, Madison gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "Madison",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and William visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, William, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Victoria",
+    "B": "William",
+    "C": "Elizabeth",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and George left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, George, and Frank met at the store, Frank gave a bottle to",
+    "A": "Clark",
+    "B": "George",
+    "C": "Frank",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and Brandon visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, Brandon, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Kyle",
+    "B": "Brandon",
+    "C": "Sarah",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and Alex went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, Alex, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "George",
+    "B": "Alex",
+    "C": "Sarah",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and Victoria went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, Victoria, and Alex met at the store, Alex gave a bottle to",
+    "A": "William",
+    "B": "Victoria",
+    "C": "Alex",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Clark visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Clark, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Thomas",
+    "B": "Clark",
+    "C": "Brandon",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Jessica and Alex left the house, Jessica passed a note to",
+    "corrupted_prompt": "When Jessica, Alex, and Kate met at the store, Kate gave a bottle to",
+    "A": "Jessica",
+    "B": "Alex",
+    "C": "Kate",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and Brian talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, Brian, and William met at the store, William gave a bottle to",
+    "A": "Frank",
+    "B": "Brian",
+    "C": "William",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Sarah went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Sarah, and William met at the store, William gave a bottle to",
+    "A": "Frank",
+    "B": "Sarah",
+    "C": "William",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Frank and Anna left the house, Frank passed a note to",
+    "corrupted_prompt": "When Frank, Anna, and George met at the store, George gave a bottle to",
+    "A": "Frank",
+    "B": "Anna",
+    "C": "George",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and William left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, William, and Frank met at the store, Frank gave a bottle to",
+    "A": "Anna",
+    "B": "William",
+    "C": "Frank",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Frank and Clark visited the garden, and Frank handed a flower to",
+    "corrupted_prompt": "When Frank, Clark, and David met at the store, David gave a bottle to",
+    "A": "Frank",
+    "B": "Clark",
+    "C": "David",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Sarah talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Sarah, and Frank met at the store, Frank gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Sarah",
+    "C": "Frank",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Alex talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Alex, and George met at the store, George gave a bottle to",
+    "A": "Alan",
+    "B": "Alex",
+    "C": "George",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and Aaron visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, Aaron, and Clark met at the store, Clark gave a bottle to",
+    "A": "Alan",
+    "B": "Aaron",
+    "C": "Clark",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Brian talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Brian, and William met at the store, William gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Brian",
+    "C": "William",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and Thomas went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, Thomas, and Anna met at the store, Anna gave a bottle to",
+    "A": "Kate",
+    "B": "Thomas",
+    "C": "Anna",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alex and Brandon went to the store, Alex gave a bottle to",
+    "corrupted_prompt": "When Alex, Brandon, and Kate met at the store, Kate gave a bottle to",
+    "A": "Alex",
+    "B": "Brandon",
+    "C": "Kate",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Thomas left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Thomas, and Kate met at the store, Kate gave a bottle to",
+    "A": "Victoria",
+    "B": "Thomas",
+    "C": "Kate",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and Alan visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, Alan, and Kate met at the store, Kate gave a bottle to",
+    "A": "Brandon",
+    "B": "Alan",
+    "C": "Kate",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Jessica left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Jessica, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Alan",
+    "B": "Jessica",
+    "C": "Elizabeth",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Jessica talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Jessica, and Brian met at the store, Brian gave a bottle to",
+    "A": "Anna",
+    "B": "Jessica",
+    "C": "Brian",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and Brian left the house, David passed a note to",
+    "corrupted_prompt": "When David, Brian, and Paul met at the store, Paul gave a bottle to",
+    "A": "David",
+    "B": "Brian",
+    "C": "Paul",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Brian visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Brian, and Paul met at the store, Paul gave a bottle to",
+    "A": "Aaron",
+    "B": "Brian",
+    "C": "Paul",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and Elizabeth left the house, David passed a note to",
+    "corrupted_prompt": "When David, Elizabeth, and Anna met at the store, Anna gave a bottle to",
+    "A": "David",
+    "B": "Elizabeth",
+    "C": "Anna",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kyle and Alan talked and Kyle gave a snack to",
+    "corrupted_prompt": "When Kyle, Alan, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Kyle",
+    "B": "Alan",
+    "C": "Elizabeth",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Madison visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Madison, and George met at the store, George gave a bottle to",
+    "A": "Clark",
+    "B": "Madison",
+    "C": "George",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and William went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, William, and Clark met at the store, Clark gave a bottle to",
+    "A": "David",
+    "B": "William",
+    "C": "Clark",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and George visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, George, and Alex met at the store, Alex gave a bottle to",
+    "A": "Kyle",
+    "B": "George",
+    "C": "Alex",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Jessica talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Jessica, and William met at the store, William gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Jessica",
+    "C": "William",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and Aaron went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, Aaron, and Frank met at the store, Frank gave a bottle to",
+    "A": "George",
+    "B": "Aaron",
+    "C": "Frank",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brian and Victoria visited the garden, and Brian handed a flower to",
+    "corrupted_prompt": "When Brian, Victoria, and Alan met at the store, Alan gave a bottle to",
+    "A": "Brian",
+    "B": "Victoria",
+    "C": "Alan",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Kate visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Kate, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Anna",
+    "B": "Kate",
+    "C": "Jessica",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and Sarah went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, Sarah, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Kate",
+    "B": "Sarah",
+    "C": "Kyle",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Clark visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Clark, and Alan met at the store, Alan gave a bottle to",
+    "A": "Victoria",
+    "B": "Clark",
+    "C": "Alan",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kate and Aaron left the house, Kate passed a note to",
+    "corrupted_prompt": "When Kate, Aaron, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Kate",
+    "B": "Aaron",
+    "C": "Kyle",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kate and Alex visited the garden, and Kate handed a flower to",
+    "corrupted_prompt": "When Kate, Alex, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Kate",
+    "B": "Alex",
+    "C": "Jessica",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Frank visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Frank, and Paul met at the store, Paul gave a bottle to",
+    "A": "Anna",
+    "B": "Frank",
+    "C": "Paul",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Kyle visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Kyle, and William met at the store, William gave a bottle to",
+    "A": "George",
+    "B": "Kyle",
+    "C": "William",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Clark talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Clark, and Madison met at the store, Madison gave a bottle to",
+    "A": "Brandon",
+    "B": "Clark",
+    "C": "Madison",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brian and Victoria visited the garden, and Brian handed a flower to",
+    "corrupted_prompt": "When Brian, Victoria, and Kate met at the store, Kate gave a bottle to",
+    "A": "Brian",
+    "B": "Victoria",
+    "C": "Kate",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Aaron visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Aaron, and George met at the store, George gave a bottle to",
+    "A": "Thomas",
+    "B": "Aaron",
+    "C": "George",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Kate visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Clark",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and William left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, William, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Madison",
+    "B": "William",
+    "C": "Thomas",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Paul and Brian went to the store, Paul gave a bottle to",
+    "corrupted_prompt": "When Paul, Brian, and George met at the store, George gave a bottle to",
+    "A": "Paul",
+    "B": "Brian",
+    "C": "George",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and George went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, George, and David met at the store, David gave a bottle to",
+    "A": "Sarah",
+    "B": "George",
+    "C": "David",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Frank and David left the house, Frank passed a note to",
+    "corrupted_prompt": "When Frank, David, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Frank",
+    "B": "David",
+    "C": "Brandon",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Alan left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Alan, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Aaron",
+    "B": "Alan",
+    "C": "Thomas",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, William and Alex talked and William gave a snack to",
+    "corrupted_prompt": "When William, Alex, and Madison met at the store, Madison gave a bottle to",
+    "A": "William",
+    "B": "Alex",
+    "C": "Madison",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Clark talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Clark, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Clark",
+    "C": "Sarah",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and David left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, David, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Kyle",
+    "B": "David",
+    "C": "Aaron",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and Kate left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, Kate, and Clark met at the store, Clark gave a bottle to",
+    "A": "Anna",
+    "B": "Kate",
+    "C": "Clark",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Madison went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Madison, and William met at the store, William gave a bottle to",
+    "A": "Sarah",
+    "B": "Madison",
+    "C": "William",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Anna talked and David gave a snack to",
+    "corrupted_prompt": "When David, Anna, and Brian met at the store, Brian gave a bottle to",
+    "A": "David",
+    "B": "Anna",
+    "C": "Brian",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Madison and Sarah visited the garden, and Madison handed a flower to",
+    "corrupted_prompt": "When Madison, Sarah, and Paul met at the store, Paul gave a bottle to",
+    "A": "Madison",
+    "B": "Sarah",
+    "C": "Paul",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, William and Sarah talked and William gave a snack to",
+    "corrupted_prompt": "When William, Sarah, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "William",
+    "B": "Sarah",
+    "C": "Victoria",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Brian talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Brian, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Madison",
+    "B": "Brian",
+    "C": "Sarah",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and David visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, David, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Elizabeth",
+    "B": "David",
+    "C": "Victoria",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and David visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, David, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Paul",
+    "B": "David",
+    "C": "Sarah",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alex and Frank left the house, Alex passed a note to",
+    "corrupted_prompt": "When Alex, Frank, and George met at the store, George gave a bottle to",
+    "A": "Alex",
+    "B": "Frank",
+    "C": "George",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and William went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, William, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "George",
+    "B": "William",
+    "C": "Brandon",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and David talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, David, and Brian met at the store, Brian gave a bottle to",
+    "A": "Brandon",
+    "B": "David",
+    "C": "Brian",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Alex talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Alex, and Paul met at the store, Paul gave a bottle to",
+    "A": "Clark",
+    "B": "Alex",
+    "C": "Paul",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Thomas talked and George gave a snack to",
+    "corrupted_prompt": "When George, Thomas, and Madison met at the store, Madison gave a bottle to",
+    "A": "George",
+    "B": "Thomas",
+    "C": "Madison",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Clark talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Clark, and Madison met at the store, Madison gave a bottle to",
+    "A": "Alan",
+    "B": "Clark",
+    "C": "Madison",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Aaron talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Aaron, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Aaron",
+    "C": "Sarah",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Jessica visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Jessica, and Madison met at the store, Madison gave a bottle to",
+    "A": "Aaron",
+    "B": "Jessica",
+    "C": "Madison",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kate and Thomas left the house, Kate passed a note to",
+    "corrupted_prompt": "When Kate, Thomas, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Kate",
+    "B": "Thomas",
+    "C": "Sarah",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Elizabeth talked and David gave a snack to",
+    "corrupted_prompt": "When David, Elizabeth, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "David",
+    "B": "Elizabeth",
+    "C": "Thomas",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Kyle visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Kyle, and Madison met at the store, Madison gave a bottle to",
+    "A": "Aaron",
+    "B": "Kyle",
+    "C": "Madison",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brian and Madison left the house, Brian passed a note to",
+    "corrupted_prompt": "When Brian, Madison, and William met at the store, William gave a bottle to",
+    "A": "Brian",
+    "B": "Madison",
+    "C": "William",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Aaron and Kyle went to the store, Aaron gave a bottle to",
+    "corrupted_prompt": "When Aaron, Kyle, and Anna met at the store, Anna gave a bottle to",
+    "A": "Aaron",
+    "B": "Kyle",
+    "C": "Anna",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and Brandon talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, Brandon, and Clark met at the store, Clark gave a bottle to",
+    "A": "Kate",
+    "B": "Brandon",
+    "C": "Clark",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Elizabeth talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Elizabeth, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Alan",
+    "B": "Elizabeth",
+    "C": "Kyle",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Madison visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Madison, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Clark",
+    "B": "Madison",
+    "C": "Jessica",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kyle and Elizabeth talked and Kyle gave a snack to",
+    "corrupted_prompt": "When Kyle, Elizabeth, and Frank met at the store, Frank gave a bottle to",
+    "A": "Kyle",
+    "B": "Elizabeth",
+    "C": "Frank",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alex and Paul went to the store, Alex gave a bottle to",
+    "corrupted_prompt": "When Alex, Paul, and William met at the store, William gave a bottle to",
+    "A": "Alex",
+    "B": "Paul",
+    "C": "William",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Jessica left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Jessica, and Anna met at the store, Anna gave a bottle to",
+    "A": "Alan",
+    "B": "Jessica",
+    "C": "Anna",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Aaron left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Aaron, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Alan",
+    "B": "Aaron",
+    "C": "Elizabeth",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Brandon left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Brandon, and Clark met at the store, Clark gave a bottle to",
+    "A": "Aaron",
+    "B": "Brandon",
+    "C": "Clark",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Anna left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Anna, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Paul",
+    "B": "Anna",
+    "C": "Sarah",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Elizabeth and Jessica left the house, Elizabeth passed a note to",
+    "corrupted_prompt": "When Elizabeth, Jessica, and Anna met at the store, Anna gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Jessica",
+    "C": "Anna",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Frank went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Frank, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Brian",
+    "B": "Frank",
+    "C": "Aaron",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and Victoria talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, Victoria, and Kate met at the store, Kate gave a bottle to",
+    "A": "Frank",
+    "B": "Victoria",
+    "C": "Kate",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and Alex left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, Alex, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Clark",
+    "B": "Alex",
+    "C": "Brandon",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Anna went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Anna, and Kate met at the store, Kate gave a bottle to",
+    "A": "Frank",
+    "B": "Anna",
+    "C": "Kate",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Kate visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Kate, and Alex met at the store, Alex gave a bottle to",
+    "A": "Thomas",
+    "B": "Kate",
+    "C": "Alex",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and George went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, George, and Madison met at the store, Madison gave a bottle to",
+    "A": "Sarah",
+    "B": "George",
+    "C": "Madison",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Paul and Anna talked and Paul gave a snack to",
+    "corrupted_prompt": "When Paul, Anna, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Paul",
+    "B": "Anna",
+    "C": "Kyle",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Brandon talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Brandon, and Clark met at the store, Clark gave a bottle to",
+    "A": "Madison",
+    "B": "Brandon",
+    "C": "Clark",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Elizabeth talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Elizabeth, and Paul met at the store, Paul gave a bottle to",
+    "A": "Sarah",
+    "B": "Elizabeth",
+    "C": "Paul",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kate and Victoria visited the garden, and Kate handed a flower to",
+    "corrupted_prompt": "When Kate, Victoria, and George met at the store, George gave a bottle to",
+    "A": "Kate",
+    "B": "Victoria",
+    "C": "George",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "David and Alex visited the garden, and David handed a flower to",
+    "corrupted_prompt": "When David, Alex, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "David",
+    "B": "Alex",
+    "C": "Sarah",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Madison talked and David gave a snack to",
+    "corrupted_prompt": "When David, Madison, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "David",
+    "B": "Madison",
+    "C": "Jessica",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Paul visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Paul, and Clark met at the store, Clark gave a bottle to",
+    "A": "Aaron",
+    "B": "Paul",
+    "C": "Clark",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Clark visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Clark, and Frank met at the store, Frank gave a bottle to",
+    "A": "Paul",
+    "B": "Clark",
+    "C": "Frank",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Elizabeth visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Elizabeth, and William met at the store, William gave a bottle to",
+    "A": "George",
+    "B": "Elizabeth",
+    "C": "William",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Sarah left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Sarah, and Anna met at the store, Anna gave a bottle to",
+    "A": "Aaron",
+    "B": "Sarah",
+    "C": "Anna",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Kate talked and David gave a snack to",
+    "corrupted_prompt": "When David, Kate, and William met at the store, William gave a bottle to",
+    "A": "David",
+    "B": "Kate",
+    "C": "William",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Paul talked and David gave a snack to",
+    "corrupted_prompt": "When David, Paul, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "David",
+    "B": "Paul",
+    "C": "Sarah",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Alex visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Alex, and Frank met at the store, Frank gave a bottle to",
+    "A": "Aaron",
+    "B": "Alex",
+    "C": "Frank",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and David visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, David, and Kate met at the store, Kate gave a bottle to",
+    "A": "Kyle",
+    "B": "David",
+    "C": "Kate",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Thomas visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Thomas, and Kate met at the store, Kate gave a bottle to",
+    "A": "Paul",
+    "B": "Thomas",
+    "C": "Kate",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and George visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, George, and Paul met at the store, Paul gave a bottle to",
+    "A": "Thomas",
+    "B": "George",
+    "C": "Paul",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and Frank visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, Frank, and David met at the store, David gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Frank",
+    "C": "David",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Clark visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Clark, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Anna",
+    "B": "Clark",
+    "C": "Brandon",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and Brian left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, Brian, and David met at the store, David gave a bottle to",
+    "A": "Thomas",
+    "B": "Brian",
+    "C": "David",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Elizabeth visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Elizabeth, and Anna met at the store, Anna gave a bottle to",
+    "A": "Paul",
+    "B": "Elizabeth",
+    "C": "Anna",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and Frank left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, Frank, and Kate met at the store, Kate gave a bottle to",
+    "A": "Clark",
+    "B": "Frank",
+    "C": "Kate",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Frank went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Frank, and William met at the store, William gave a bottle to",
+    "A": "Brian",
+    "B": "Frank",
+    "C": "William",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brandon and Elizabeth went to the store, Brandon gave a bottle to",
+    "corrupted_prompt": "When Brandon, Elizabeth, and Alan met at the store, Alan gave a bottle to",
+    "A": "Brandon",
+    "B": "Elizabeth",
+    "C": "Alan",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and Frank left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, Frank, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Thomas",
+    "B": "Frank",
+    "C": "Sarah",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Aaron visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Aaron, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Anna",
+    "B": "Aaron",
+    "C": "Thomas",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Madison visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Madison, and Brian met at the store, Brian gave a bottle to",
+    "A": "Paul",
+    "B": "Madison",
+    "C": "Brian",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Elizabeth talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Elizabeth, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Alan",
+    "B": "Elizabeth",
+    "C": "Brandon",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and Kyle talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, Kyle, and Anna met at the store, Anna gave a bottle to",
+    "A": "Alex",
+    "B": "Kyle",
+    "C": "Anna",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Alan left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Alan, and Brian met at the store, Brian gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "Brian",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Frank went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Frank, and David met at the store, David gave a bottle to",
+    "A": "Victoria",
+    "B": "Frank",
+    "C": "David",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Thomas talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Thomas, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Anna",
+    "B": "Thomas",
+    "C": "Elizabeth",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Kyle talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Kyle, and Paul met at the store, Paul gave a bottle to",
+    "A": "Sarah",
+    "B": "Kyle",
+    "C": "Paul",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and Victoria talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, Victoria, and George met at the store, George gave a bottle to",
+    "A": "Frank",
+    "B": "Victoria",
+    "C": "George",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Alan went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Alan, and David met at the store, David gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "David",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Clark and Elizabeth went to the store, Clark gave a bottle to",
+    "corrupted_prompt": "When Clark, Elizabeth, and Brian met at the store, Brian gave a bottle to",
+    "A": "Clark",
+    "B": "Elizabeth",
+    "C": "Brian",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Brian went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Brian, and Clark met at the store, Clark gave a bottle to",
+    "A": "David",
+    "B": "Brian",
+    "C": "Clark",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Aaron and Kate talked and Aaron gave a snack to",
+    "corrupted_prompt": "When Aaron, Kate, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Aaron",
+    "B": "Kate",
+    "C": "Thomas",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Frank and Alan left the house, Frank passed a note to",
+    "corrupted_prompt": "When Frank, Alan, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Frank",
+    "B": "Alan",
+    "C": "Jessica",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Madison went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Madison, and David met at the store, David gave a bottle to",
+    "A": "Frank",
+    "B": "Madison",
+    "C": "David",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Elizabeth and Victoria left the house, Elizabeth passed a note to",
+    "corrupted_prompt": "When Elizabeth, Victoria, and Madison met at the store, Madison gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Victoria",
+    "C": "Madison",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and Thomas left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, Thomas, and Brian met at the store, Brian gave a bottle to",
+    "A": "Anna",
+    "B": "Thomas",
+    "C": "Brian",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Elizabeth and Brandon went to the store, Elizabeth gave a bottle to",
+    "corrupted_prompt": "When Elizabeth, Brandon, and Alan met at the store, Alan gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Brandon",
+    "C": "Alan",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brian and Frank visited the garden, and Brian handed a flower to",
+    "corrupted_prompt": "When Brian, Frank, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Brian",
+    "B": "Frank",
+    "C": "Sarah",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Madison visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Madison, and Kate met at the store, Kate gave a bottle to",
+    "A": "Anna",
+    "B": "Madison",
+    "C": "Kate",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Sarah talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Sarah, and Paul met at the store, Paul gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Sarah",
+    "C": "Paul",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and Alan talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, Alan, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Alex",
+    "B": "Alan",
+    "C": "Kyle",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and Elizabeth went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, Elizabeth, and Alex met at the store, Alex gave a bottle to",
+    "A": "William",
+    "B": "Elizabeth",
+    "C": "Alex",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Victoria went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Victoria, and Frank met at the store, Frank gave a bottle to",
+    "A": "David",
+    "B": "Victoria",
+    "C": "Frank",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Alan left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Alan, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "Sarah",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Sarah and Madison visited the garden, and Sarah handed a flower to",
+    "corrupted_prompt": "When Sarah, Madison, and Brian met at the store, Brian gave a bottle to",
+    "A": "Sarah",
+    "B": "Madison",
+    "C": "Brian",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Kate talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Kate, and Alex met at the store, Alex gave a bottle to",
+    "A": "Victoria",
+    "B": "Kate",
+    "C": "Alex",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Paul and Jessica talked and Paul gave a snack to",
+    "corrupted_prompt": "When Paul, Jessica, and George met at the store, George gave a bottle to",
+    "A": "Paul",
+    "B": "Jessica",
+    "C": "George",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After George and Anna left the house, George passed a note to",
+    "corrupted_prompt": "When George, Anna, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "George",
+    "B": "Anna",
+    "C": "Kyle",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kate and Paul visited the garden, and Kate handed a flower to",
+    "corrupted_prompt": "When Kate, Paul, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Kate",
+    "B": "Paul",
+    "C": "Kyle",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Thomas and Alan talked and Thomas gave a snack to",
+    "corrupted_prompt": "When Thomas, Alan, and Anna met at the store, Anna gave a bottle to",
+    "A": "Thomas",
+    "B": "Alan",
+    "C": "Anna",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Elizabeth visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Elizabeth, and Anna met at the store, Anna gave a bottle to",
+    "A": "George",
+    "B": "Elizabeth",
+    "C": "Anna",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Sarah went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Sarah, and William met at the store, William gave a bottle to",
+    "A": "Kyle",
+    "B": "Sarah",
+    "C": "William",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Madison and Kate went to the store, Madison gave a bottle to",
+    "corrupted_prompt": "When Madison, Kate, and Clark met at the store, Clark gave a bottle to",
+    "A": "Madison",
+    "B": "Kate",
+    "C": "Clark",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Jessica talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Jessica, and Paul met at the store, Paul gave a bottle to",
+    "A": "Sarah",
+    "B": "Jessica",
+    "C": "Paul",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and Clark visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, Clark, and William met at the store, William gave a bottle to",
+    "A": "Alan",
+    "B": "Clark",
+    "C": "William",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Frank talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Frank, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Brandon",
+    "B": "Frank",
+    "C": "Thomas",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and Aaron left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, Aaron, and David met at the store, David gave a bottle to",
+    "A": "Anna",
+    "B": "Aaron",
+    "C": "David",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Thomas went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Thomas, and William met at the store, William gave a bottle to",
+    "A": "Frank",
+    "B": "Thomas",
+    "C": "William",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kate and Alex left the house, Kate passed a note to",
+    "corrupted_prompt": "When Kate, Alex, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Kate",
+    "B": "Alex",
+    "C": "Brandon",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Anna left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Anna, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Madison",
+    "B": "Anna",
+    "C": "Thomas",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Frank and Sarah visited the garden, and Frank handed a flower to",
+    "corrupted_prompt": "When Frank, Sarah, and Madison met at the store, Madison gave a bottle to",
+    "A": "Frank",
+    "B": "Sarah",
+    "C": "Madison",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and William left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, William, and Madison met at the store, Madison gave a bottle to",
+    "A": "Paul",
+    "B": "William",
+    "C": "Madison",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Thomas and Brandon talked and Thomas gave a snack to",
+    "corrupted_prompt": "When Thomas, Brandon, and David met at the store, David gave a bottle to",
+    "A": "Thomas",
+    "B": "Brandon",
+    "C": "David",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After William and Sarah left the house, William passed a note to",
+    "corrupted_prompt": "When William, Sarah, and Alex met at the store, Alex gave a bottle to",
+    "A": "William",
+    "B": "Sarah",
+    "C": "Alex",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and Kate visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, Kate, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Kate",
+    "C": "Victoria",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and Aaron visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, Aaron, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Aaron",
+    "C": "Jessica",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and William talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, William, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Victoria",
+    "B": "William",
+    "C": "Brandon",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Thomas talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Thomas, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Madison",
+    "B": "Thomas",
+    "C": "Jessica",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Thomas talked and George gave a snack to",
+    "corrupted_prompt": "When George, Thomas, and Paul met at the store, Paul gave a bottle to",
+    "A": "George",
+    "B": "Thomas",
+    "C": "Paul",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After George and Clark left the house, George passed a note to",
+    "corrupted_prompt": "When George, Clark, and Madison met at the store, Madison gave a bottle to",
+    "A": "George",
+    "B": "Clark",
+    "C": "Madison",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Kate went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Kate, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "David",
+    "B": "Kate",
+    "C": "Jessica",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Paul and Kyle talked and Paul gave a snack to",
+    "corrupted_prompt": "When Paul, Kyle, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Paul",
+    "B": "Kyle",
+    "C": "Brandon",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Alan left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Alan, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Paul",
+    "B": "Alan",
+    "C": "Victoria",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and George went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, George, and Paul met at the store, Paul gave a bottle to",
+    "A": "Victoria",
+    "B": "George",
+    "C": "Paul",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Sarah talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Sarah, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Anna",
+    "B": "Sarah",
+    "C": "Aaron",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brandon and Kate left the house, Brandon passed a note to",
+    "corrupted_prompt": "When Brandon, Kate, and Alex met at the store, Alex gave a bottle to",
+    "A": "Brandon",
+    "B": "Kate",
+    "C": "Alex",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Elizabeth visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Elizabeth, and Kate met at the store, Kate gave a bottle to",
+    "A": "Paul",
+    "B": "Elizabeth",
+    "C": "Kate",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and George talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, George, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Alex",
+    "B": "George",
+    "C": "Kyle",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Paul and Thomas went to the store, Paul gave a bottle to",
+    "corrupted_prompt": "When Paul, Thomas, and Alex met at the store, Alex gave a bottle to",
+    "A": "Paul",
+    "B": "Thomas",
+    "C": "Alex",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and Frank left the house, David passed a note to",
+    "corrupted_prompt": "When David, Frank, and Alex met at the store, Alex gave a bottle to",
+    "A": "David",
+    "B": "Frank",
+    "C": "Alex",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and Anna went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, Anna, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Kate",
+    "B": "Anna",
+    "C": "Sarah",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Frank went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Frank, and Alan met at the store, Alan gave a bottle to",
+    "A": "Brian",
+    "B": "Frank",
+    "C": "Alan",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Alan visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Alan, and Kate met at the store, Kate gave a bottle to",
+    "A": "George",
+    "B": "Alan",
+    "C": "Kate",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Jessica and Kate left the house, Jessica passed a note to",
+    "corrupted_prompt": "When Jessica, Kate, and David met at the store, David gave a bottle to",
+    "A": "Jessica",
+    "B": "Kate",
+    "C": "David",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Kate left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Kate, and Brian met at the store, Brian gave a bottle to",
+    "A": "Sarah",
+    "B": "Kate",
+    "C": "Brian",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brian and Alex talked and Brian gave a snack to",
+    "corrupted_prompt": "When Brian, Alex, and Frank met at the store, Frank gave a bottle to",
+    "A": "Brian",
+    "B": "Alex",
+    "C": "Frank",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Victoria left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Victoria, and David met at the store, David gave a bottle to",
+    "A": "Paul",
+    "B": "Victoria",
+    "C": "David",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Elizabeth talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Elizabeth, and Frank met at the store, Frank gave a bottle to",
+    "A": "Madison",
+    "B": "Elizabeth",
+    "C": "Frank",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Madison visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Madison, and William met at the store, William gave a bottle to",
+    "A": "Aaron",
+    "B": "Madison",
+    "C": "William",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brian and Alex talked and Brian gave a snack to",
+    "corrupted_prompt": "When Brian, Alex, and Kate met at the store, Kate gave a bottle to",
+    "A": "Brian",
+    "B": "Alex",
+    "C": "Kate",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Frank talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Frank, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Victoria",
+    "B": "Frank",
+    "C": "Elizabeth",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Frank left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Frank, and Kate met at the store, Kate gave a bottle to",
+    "A": "Madison",
+    "B": "Frank",
+    "C": "Kate",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Anna left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Anna, and Kate met at the store, Kate gave a bottle to",
+    "A": "Paul",
+    "B": "Anna",
+    "C": "Kate",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Jessica visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Jessica, and Frank met at the store, Frank gave a bottle to",
+    "A": "Victoria",
+    "B": "Jessica",
+    "C": "Frank",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Kyle visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Kyle, and Alan met at the store, Alan gave a bottle to",
+    "A": "Aaron",
+    "B": "Kyle",
+    "C": "Alan",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Alan talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Alan, and George met at the store, George gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "George",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and Jessica left the house, David passed a note to",
+    "corrupted_prompt": "When David, Jessica, and Clark met at the store, Clark gave a bottle to",
+    "A": "David",
+    "B": "Jessica",
+    "C": "Clark",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After William and Elizabeth left the house, William passed a note to",
+    "corrupted_prompt": "When William, Elizabeth, and Anna met at the store, Anna gave a bottle to",
+    "A": "William",
+    "B": "Elizabeth",
+    "C": "Anna",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Frank talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Frank, and Alex met at the store, Alex gave a bottle to",
+    "A": "Alan",
+    "B": "Frank",
+    "C": "Alex",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Jessica left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Jessica, and Alex met at the store, Alex gave a bottle to",
+    "A": "Victoria",
+    "B": "Jessica",
+    "C": "Alex",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and George talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, George, and Brian met at the store, Brian gave a bottle to",
+    "A": "Frank",
+    "B": "George",
+    "C": "Brian",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Brandon visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Brandon, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Clark",
+    "B": "Brandon",
+    "C": "Victoria",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Elizabeth left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Elizabeth, and Frank met at the store, Frank gave a bottle to",
+    "A": "Sarah",
+    "B": "Elizabeth",
+    "C": "Frank",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Frank visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Frank, and Anna met at the store, Anna gave a bottle to",
+    "A": "Paul",
+    "B": "Frank",
+    "C": "Anna",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Alex left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Alex, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Madison",
+    "B": "Alex",
+    "C": "Elizabeth",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and Thomas visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, Thomas, and Alex met at the store, Alex gave a bottle to",
+    "A": "Kyle",
+    "B": "Thomas",
+    "C": "Alex",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and Aaron visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, Aaron, and William met at the store, William gave a bottle to",
+    "A": "Kyle",
+    "B": "Aaron",
+    "C": "William",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Madison visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Madison, and Frank met at the store, Frank gave a bottle to",
+    "A": "Anna",
+    "B": "Madison",
+    "C": "Frank",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Kyle visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Kyle, and Anna met at the store, Anna gave a bottle to",
+    "A": "Victoria",
+    "B": "Kyle",
+    "C": "Anna",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Paul went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Paul, and William met at the store, William gave a bottle to",
+    "A": "David",
+    "B": "Paul",
+    "C": "William",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and David went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, David, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "George",
+    "B": "David",
+    "C": "Sarah",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Kate went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Kate, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Frank",
+    "B": "Kate",
+    "C": "Brandon",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and William visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, William, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alan",
+    "B": "William",
+    "C": "Sarah",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and William left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, William, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Anna",
+    "B": "William",
+    "C": "Victoria",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Kyle talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Kyle, and Kate met at the store, Kate gave a bottle to",
+    "A": "Brandon",
+    "B": "Kyle",
+    "C": "Kate",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and Kate left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, Kate, and Madison met at the store, Madison gave a bottle to",
+    "A": "Thomas",
+    "B": "Kate",
+    "C": "Madison",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Anna and Paul talked and Anna gave a snack to",
+    "corrupted_prompt": "When Anna, Paul, and Frank met at the store, Frank gave a bottle to",
+    "A": "Anna",
+    "B": "Paul",
+    "C": "Frank",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Jessica left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Jessica, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alan",
+    "B": "Jessica",
+    "C": "Sarah",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Madison and David visited the garden, and Madison handed a flower to",
+    "corrupted_prompt": "When Madison, David, and Anna met at the store, Anna gave a bottle to",
+    "A": "Madison",
+    "B": "David",
+    "C": "Anna",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and Thomas visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, Thomas, and Alan met at the store, Alan gave a bottle to",
+    "A": "Jessica",
+    "B": "Thomas",
+    "C": "Alan",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and Elizabeth left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, Elizabeth, and Anna met at the store, Anna gave a bottle to",
+    "A": "Kyle",
+    "B": "Elizabeth",
+    "C": "Anna",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Alex left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Alex, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Madison",
+    "B": "Alex",
+    "C": "Aaron",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and George left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, George, and Brian met at the store, Brian gave a bottle to",
+    "A": "Alan",
+    "B": "George",
+    "C": "Brian",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Clark went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Clark, and William met at the store, William gave a bottle to",
+    "A": "Victoria",
+    "B": "Clark",
+    "C": "William",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and Victoria left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, Victoria, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Clark",
+    "B": "Victoria",
+    "C": "Elizabeth",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and Brandon went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, Brandon, and Frank met at the store, Frank gave a bottle to",
+    "A": "George",
+    "B": "Brandon",
+    "C": "Frank",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and William visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, William, and Clark met at the store, Clark gave a bottle to",
+    "A": "Brandon",
+    "B": "William",
+    "C": "Clark",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Anna and Aaron left the house, Anna passed a note to",
+    "corrupted_prompt": "When Anna, Aaron, and Alan met at the store, Alan gave a bottle to",
+    "A": "Anna",
+    "B": "Aaron",
+    "C": "Alan",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and David visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, David, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Jessica",
+    "B": "David",
+    "C": "Aaron",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Elizabeth went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Elizabeth, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Brian",
+    "B": "Elizabeth",
+    "C": "Brandon",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and Sarah went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, Sarah, and Alex met at the store, Alex gave a bottle to",
+    "A": "Kate",
+    "B": "Sarah",
+    "C": "Alex",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Madison visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Madison, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Paul",
+    "B": "Madison",
+    "C": "Victoria",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and Anna talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, Anna, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Victoria",
+    "B": "Anna",
+    "C": "Thomas",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "David and Alan visited the garden, and David handed a flower to",
+    "corrupted_prompt": "When David, Alan, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "David",
+    "B": "Alan",
+    "C": "Sarah",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Aaron and Alan talked and Aaron gave a snack to",
+    "corrupted_prompt": "When Aaron, Alan, and Madison met at the store, Madison gave a bottle to",
+    "A": "Aaron",
+    "B": "Alan",
+    "C": "Madison",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and Anna talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, Anna, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Kate",
+    "B": "Anna",
+    "C": "Sarah",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and William visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, William, and Brian met at the store, Brian gave a bottle to",
+    "A": "Alex",
+    "B": "William",
+    "C": "Brian",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Brandon visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Brandon, and William met at the store, William gave a bottle to",
+    "A": "Alex",
+    "B": "Brandon",
+    "C": "William",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Kyle visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Kyle, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "George",
+    "B": "Kyle",
+    "C": "Sarah",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Kate went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Kate, and Anna met at the store, Anna gave a bottle to",
+    "A": "Sarah",
+    "B": "Kate",
+    "C": "Anna",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Thomas and Clark talked and Thomas gave a snack to",
+    "corrupted_prompt": "When Thomas, Clark, and Paul met at the store, Paul gave a bottle to",
+    "A": "Thomas",
+    "B": "Clark",
+    "C": "Paul",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "David and Kate visited the garden, and David handed a flower to",
+    "corrupted_prompt": "When David, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "David",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Kate went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Kate, and George met at the store, George gave a bottle to",
+    "A": "Kyle",
+    "B": "Kate",
+    "C": "George",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kate and George visited the garden, and Kate handed a flower to",
+    "corrupted_prompt": "When Kate, George, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Kate",
+    "B": "George",
+    "C": "Kyle",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brandon and Paul went to the store, Brandon gave a bottle to",
+    "corrupted_prompt": "When Brandon, Paul, and Alex met at the store, Alex gave a bottle to",
+    "A": "Brandon",
+    "B": "Paul",
+    "C": "Alex",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and William talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, William, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Alex",
+    "B": "William",
+    "C": "Brandon",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Jessica and Brandon went to the store, Jessica gave a bottle to",
+    "corrupted_prompt": "When Jessica, Brandon, and William met at the store, William gave a bottle to",
+    "A": "Jessica",
+    "B": "Brandon",
+    "C": "William",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and George went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, George, and Madison met at the store, Madison gave a bottle to",
+    "A": "Thomas",
+    "B": "George",
+    "C": "Madison",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Jessica and Kate went to the store, Jessica gave a bottle to",
+    "corrupted_prompt": "When Jessica, Kate, and Frank met at the store, Frank gave a bottle to",
+    "A": "Jessica",
+    "B": "Kate",
+    "C": "Frank",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "William and Frank visited the garden, and William handed a flower to",
+    "corrupted_prompt": "When William, Frank, and Anna met at the store, Anna gave a bottle to",
+    "A": "William",
+    "B": "Frank",
+    "C": "Anna",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Sarah left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Sarah, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Victoria",
+    "B": "Sarah",
+    "C": "Brandon",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Paul and David went to the store, Paul gave a bottle to",
+    "corrupted_prompt": "When Paul, David, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Paul",
+    "B": "David",
+    "C": "Kyle",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and Jessica went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, Jessica, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Thomas",
+    "B": "Jessica",
+    "C": "Elizabeth",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Victoria and David talked and Victoria gave a snack to",
+    "corrupted_prompt": "When Victoria, David, and William met at the store, William gave a bottle to",
+    "A": "Victoria",
+    "B": "David",
+    "C": "William",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and Thomas went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, Thomas, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "William",
+    "B": "Thomas",
+    "C": "Elizabeth",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Brian visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Brian, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Aaron",
+    "B": "Brian",
+    "C": "Jessica",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and Jessica went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, Jessica, and Brian met at the store, Brian gave a bottle to",
+    "A": "George",
+    "B": "Jessica",
+    "C": "Brian",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Victoria talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Victoria, and Alex met at the store, Alex gave a bottle to",
+    "A": "Brandon",
+    "B": "Victoria",
+    "C": "Alex",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brandon and Aaron went to the store, Brandon gave a bottle to",
+    "corrupted_prompt": "When Brandon, Aaron, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Brandon",
+    "B": "Aaron",
+    "C": "Victoria",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Kyle talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Kyle, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Clark",
+    "B": "Kyle",
+    "C": "Sarah",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Brian visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Brian, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "George",
+    "B": "Brian",
+    "C": "Jessica",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When George and Victoria went to the store, George gave a bottle to",
+    "corrupted_prompt": "When George, Victoria, and Alan met at the store, Alan gave a bottle to",
+    "A": "George",
+    "B": "Victoria",
+    "C": "Alan",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brandon and Brian went to the store, Brandon gave a bottle to",
+    "corrupted_prompt": "When Brandon, Brian, and Alex met at the store, Alex gave a bottle to",
+    "A": "Brandon",
+    "B": "Brian",
+    "C": "Alex",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Madison talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Madison, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Madison",
+    "C": "Thomas",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, William and Madison talked and William gave a snack to",
+    "corrupted_prompt": "When William, Madison, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "William",
+    "B": "Madison",
+    "C": "Elizabeth",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Clark and Sarah went to the store, Clark gave a bottle to",
+    "corrupted_prompt": "When Clark, Sarah, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Clark",
+    "B": "Sarah",
+    "C": "Kyle",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kate and Anna visited the garden, and Kate handed a flower to",
+    "corrupted_prompt": "When Kate, Anna, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Kate",
+    "B": "Anna",
+    "C": "Thomas",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Frank went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Frank, and David met at the store, David gave a bottle to",
+    "A": "Sarah",
+    "B": "Frank",
+    "C": "David",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Alan went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Alan, and David met at the store, David gave a bottle to",
+    "A": "Kyle",
+    "B": "Alan",
+    "C": "David",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Frank and Clark left the house, Frank passed a note to",
+    "corrupted_prompt": "When Frank, Clark, and George met at the store, George gave a bottle to",
+    "A": "Frank",
+    "B": "Clark",
+    "C": "George",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and George went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, George, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Frank",
+    "B": "George",
+    "C": "Aaron",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Paul and Kate left the house, Paul passed a note to",
+    "corrupted_prompt": "When Paul, Kate, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Paul",
+    "B": "Kate",
+    "C": "Brandon",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and Thomas left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, Thomas, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Kyle",
+    "B": "Thomas",
+    "C": "Victoria",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and Jessica went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, Jessica, and Kate met at the store, Kate gave a bottle to",
+    "A": "Thomas",
+    "B": "Jessica",
+    "C": "Kate",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alan and Kate went to the store, Alan gave a bottle to",
+    "corrupted_prompt": "When Alan, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alan",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and George talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, George, and Madison met at the store, Madison gave a bottle to",
+    "A": "Alex",
+    "B": "George",
+    "C": "Madison",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and Frank went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, Frank, and Madison met at the store, Madison gave a bottle to",
+    "A": "Kate",
+    "B": "Frank",
+    "C": "Madison",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and George left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, George, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Aaron",
+    "B": "George",
+    "C": "Sarah",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Jessica and Alex talked and Jessica gave a snack to",
+    "corrupted_prompt": "When Jessica, Alex, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Jessica",
+    "B": "Alex",
+    "C": "Brandon",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Kate talked and David gave a snack to",
+    "corrupted_prompt": "When David, Kate, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "David",
+    "B": "Kate",
+    "C": "Victoria",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Kyle visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Kyle, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Alex",
+    "B": "Kyle",
+    "C": "Jessica",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and George left the house, David passed a note to",
+    "corrupted_prompt": "When David, George, and Alex met at the store, Alex gave a bottle to",
+    "A": "David",
+    "B": "George",
+    "C": "Alex",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Anna left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Anna, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Sarah",
+    "B": "Anna",
+    "C": "Kyle",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Jessica and Brandon left the house, Jessica passed a note to",
+    "corrupted_prompt": "When Jessica, Brandon, and Anna met at the store, Anna gave a bottle to",
+    "A": "Jessica",
+    "B": "Brandon",
+    "C": "Anna",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brandon and Elizabeth left the house, Brandon passed a note to",
+    "corrupted_prompt": "When Brandon, Elizabeth, and Clark met at the store, Clark gave a bottle to",
+    "A": "Brandon",
+    "B": "Elizabeth",
+    "C": "Clark",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and Brandon went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, Brandon, and Clark met at the store, Clark gave a bottle to",
+    "A": "William",
+    "B": "Brandon",
+    "C": "Clark",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Paul and Madison talked and Paul gave a snack to",
+    "corrupted_prompt": "When Paul, Madison, and George met at the store, George gave a bottle to",
+    "A": "Paul",
+    "B": "Madison",
+    "C": "George",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Brandon talked and George gave a snack to",
+    "corrupted_prompt": "When George, Brandon, and Alex met at the store, Alex gave a bottle to",
+    "A": "George",
+    "B": "Brandon",
+    "C": "Alex",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Madison visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Madison, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Paul",
+    "B": "Madison",
+    "C": "Elizabeth",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Alan visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Alan, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Victoria",
+    "B": "Alan",
+    "C": "Thomas",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and Frank talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, Frank, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alex",
+    "B": "Frank",
+    "C": "Sarah",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and William visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, William, and George met at the store, George gave a bottle to",
+    "A": "Alan",
+    "B": "William",
+    "C": "George",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and William talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, William, and Paul met at the store, Paul gave a bottle to",
+    "A": "Alex",
+    "B": "William",
+    "C": "Paul",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Thomas went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Thomas, and Madison met at the store, Madison gave a bottle to",
+    "A": "Victoria",
+    "B": "Thomas",
+    "C": "Madison",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Clark visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Clark, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Clark",
+    "C": "Sarah",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Brandon went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Brandon, and Paul met at the store, Paul gave a bottle to",
+    "A": "Sarah",
+    "B": "Brandon",
+    "C": "Paul",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Anna and George went to the store, Anna gave a bottle to",
+    "corrupted_prompt": "When Anna, George, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Anna",
+    "B": "George",
+    "C": "Victoria",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brian and Alan left the house, Brian passed a note to",
+    "corrupted_prompt": "When Brian, Alan, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Brian",
+    "B": "Alan",
+    "C": "Sarah",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Sarah left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Sarah, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Madison",
+    "B": "Sarah",
+    "C": "Jessica",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Jessica and Frank talked and Jessica gave a snack to",
+    "corrupted_prompt": "When Jessica, Frank, and Paul met at the store, Paul gave a bottle to",
+    "A": "Jessica",
+    "B": "Frank",
+    "C": "Paul",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Alan visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Alan, and Anna met at the store, Anna gave a bottle to",
+    "A": "George",
+    "B": "Alan",
+    "C": "Anna",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Anna talked and George gave a snack to",
+    "corrupted_prompt": "When George, Anna, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "George",
+    "B": "Anna",
+    "C": "Jessica",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and Brandon visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, Brandon, and Alex met at the store, Alex gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Brandon",
+    "C": "Alex",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Victoria and Brandon visited the garden, and Victoria handed a flower to",
+    "corrupted_prompt": "When Victoria, Brandon, and George met at the store, George gave a bottle to",
+    "A": "Victoria",
+    "B": "Brandon",
+    "C": "George",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Brandon went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Brandon, and George met at the store, George gave a bottle to",
+    "A": "Kyle",
+    "B": "Brandon",
+    "C": "George",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Kyle visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Kyle, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Thomas",
+    "B": "Kyle",
+    "C": "Brandon",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Alex talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Alex, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Sarah",
+    "B": "Alex",
+    "C": "Victoria",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and Aaron visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, Aaron, and George met at the store, George gave a bottle to",
+    "A": "Jessica",
+    "B": "Aaron",
+    "C": "George",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brian and Clark visited the garden, and Brian handed a flower to",
+    "corrupted_prompt": "When Brian, Clark, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Brian",
+    "B": "Clark",
+    "C": "Thomas",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Clark and David left the house, Clark passed a note to",
+    "corrupted_prompt": "When Clark, David, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Clark",
+    "B": "David",
+    "C": "Brandon",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alex and Frank went to the store, Alex gave a bottle to",
+    "corrupted_prompt": "When Alex, Frank, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Alex",
+    "B": "Frank",
+    "C": "Victoria",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and Sarah went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, Sarah, and George met at the store, George gave a bottle to",
+    "A": "Thomas",
+    "B": "Sarah",
+    "C": "George",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, William and Brandon talked and William gave a snack to",
+    "corrupted_prompt": "When William, Brandon, and Brian met at the store, Brian gave a bottle to",
+    "A": "William",
+    "B": "Brandon",
+    "C": "Brian",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brian and William left the house, Brian passed a note to",
+    "corrupted_prompt": "When Brian, William, and Paul met at the store, Paul gave a bottle to",
+    "A": "Brian",
+    "B": "William",
+    "C": "Paul",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and Kate visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, Kate, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Alan",
+    "B": "Kate",
+    "C": "Elizabeth",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Madison and Frank talked and Madison gave a snack to",
+    "corrupted_prompt": "When Madison, Frank, and David met at the store, David gave a bottle to",
+    "A": "Madison",
+    "B": "Frank",
+    "C": "David",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and David visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, David, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Thomas",
+    "B": "David",
+    "C": "Sarah",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Jessica talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Jessica, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Clark",
+    "B": "Jessica",
+    "C": "Sarah",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and Kyle talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, Kyle, and Brian met at the store, Brian gave a bottle to",
+    "A": "Frank",
+    "B": "Kyle",
+    "C": "Brian",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Brandon visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Brandon, and Alan met at the store, Alan gave a bottle to",
+    "A": "Clark",
+    "B": "Brandon",
+    "C": "Alan",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Paul and Jessica went to the store, Paul gave a bottle to",
+    "corrupted_prompt": "When Paul, Jessica, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Paul",
+    "B": "Jessica",
+    "C": "Victoria",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Anna and Frank went to the store, Anna gave a bottle to",
+    "corrupted_prompt": "When Anna, Frank, and Clark met at the store, Clark gave a bottle to",
+    "A": "Anna",
+    "B": "Frank",
+    "C": "Clark",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Elizabeth and Madison left the house, Elizabeth passed a note to",
+    "corrupted_prompt": "When Elizabeth, Madison, and Paul met at the store, Paul gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Madison",
+    "C": "Paul",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and David talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, David, and Kate met at the store, Kate gave a bottle to",
+    "A": "Alex",
+    "B": "David",
+    "C": "Kate",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Aaron and Kate went to the store, Aaron gave a bottle to",
+    "corrupted_prompt": "When Aaron, Kate, and Madison met at the store, Madison gave a bottle to",
+    "A": "Aaron",
+    "B": "Kate",
+    "C": "Madison",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Jessica left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Jessica, and Kate met at the store, Kate gave a bottle to",
+    "A": "Sarah",
+    "B": "Jessica",
+    "C": "Kate",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alex and Jessica left the house, Alex passed a note to",
+    "corrupted_prompt": "When Alex, Jessica, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Alex",
+    "B": "Jessica",
+    "C": "Aaron",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Anna visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Anna, and Brian met at the store, Brian gave a bottle to",
+    "A": "George",
+    "B": "Anna",
+    "C": "Brian",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and Alan visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, Alan, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Brandon",
+    "B": "Alan",
+    "C": "Thomas",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Paul talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Paul, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Brandon",
+    "B": "Paul",
+    "C": "Aaron",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Aaron visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Aaron, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Alex",
+    "B": "Aaron",
+    "C": "Elizabeth",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brandon and Thomas talked and Brandon gave a snack to",
+    "corrupted_prompt": "When Brandon, Thomas, and Anna met at the store, Anna gave a bottle to",
+    "A": "Brandon",
+    "B": "Thomas",
+    "C": "Anna",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Frank and David visited the garden, and Frank handed a flower to",
+    "corrupted_prompt": "When Frank, David, and Anna met at the store, Anna gave a bottle to",
+    "A": "Frank",
+    "B": "David",
+    "C": "Anna",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and David talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, David, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alan",
+    "B": "David",
+    "C": "Sarah",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alex and Anna talked and Alex gave a snack to",
+    "corrupted_prompt": "When Alex, Anna, and William met at the store, William gave a bottle to",
+    "A": "Alex",
+    "B": "Anna",
+    "C": "William",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Aaron and Sarah left the house, Aaron passed a note to",
+    "corrupted_prompt": "When Aaron, Sarah, and Brian met at the store, Brian gave a bottle to",
+    "A": "Aaron",
+    "B": "Sarah",
+    "C": "Brian",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Frank and Kate went to the store, Frank gave a bottle to",
+    "corrupted_prompt": "When Frank, Kate, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Frank",
+    "B": "Kate",
+    "C": "Kyle",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, David and Victoria talked and David gave a snack to",
+    "corrupted_prompt": "When David, Victoria, and Brian met at the store, Brian gave a bottle to",
+    "A": "David",
+    "B": "Victoria",
+    "C": "Brian",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Sarah visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Sarah, and Anna met at the store, Anna gave a bottle to",
+    "A": "Alex",
+    "B": "Sarah",
+    "C": "Anna",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Thomas went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Thomas, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Sarah",
+    "B": "Thomas",
+    "C": "Kyle",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Paul and Alan talked and Paul gave a snack to",
+    "corrupted_prompt": "When Paul, Alan, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Paul",
+    "B": "Alan",
+    "C": "Kyle",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Elizabeth and Aaron visited the garden, and Elizabeth handed a flower to",
+    "corrupted_prompt": "When Elizabeth, Aaron, and Anna met at the store, Anna gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Aaron",
+    "C": "Anna",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Jessica and David went to the store, Jessica gave a bottle to",
+    "corrupted_prompt": "When Jessica, David, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Jessica",
+    "B": "David",
+    "C": "Kyle",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and Alan visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, Alan, and William met at the store, William gave a bottle to",
+    "A": "Brandon",
+    "B": "Alan",
+    "C": "William",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Brian talked and George gave a snack to",
+    "corrupted_prompt": "When George, Brian, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "George",
+    "B": "Brian",
+    "C": "Thomas",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Brandon went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Brandon, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Brian",
+    "B": "Brandon",
+    "C": "Sarah",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alan and Frank left the house, Alan passed a note to",
+    "corrupted_prompt": "When Alan, Frank, and Alex met at the store, Alex gave a bottle to",
+    "A": "Alan",
+    "B": "Frank",
+    "C": "Alex",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Alan visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Alan, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Clark",
+    "B": "Alan",
+    "C": "Jessica",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Kyle talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Kyle, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Sarah",
+    "B": "Kyle",
+    "C": "Elizabeth",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and Clark visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, Clark, and Kate met at the store, Kate gave a bottle to",
+    "A": "Alan",
+    "B": "Clark",
+    "C": "Kate",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and George visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, George, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Alan",
+    "B": "George",
+    "C": "Brandon",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Jessica and Kate talked and Jessica gave a snack to",
+    "corrupted_prompt": "When Jessica, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Jessica",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Kyle and George left the house, Kyle passed a note to",
+    "corrupted_prompt": "When Kyle, George, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Kyle",
+    "B": "George",
+    "C": "Thomas",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Jessica visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Jessica, and Alex met at the store, Alex gave a bottle to",
+    "A": "Paul",
+    "B": "Jessica",
+    "C": "Alex",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and Alex talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, Alex, and Clark met at the store, Clark gave a bottle to",
+    "A": "Kate",
+    "B": "Alex",
+    "C": "Clark",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Frank visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Frank, and Anna met at the store, Anna gave a bottle to",
+    "A": "Thomas",
+    "B": "Frank",
+    "C": "Anna",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and George visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, George, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Alex",
+    "B": "George",
+    "C": "Jessica",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and Kate left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Madison",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Jessica and Madison went to the store, Jessica gave a bottle to",
+    "corrupted_prompt": "When Jessica, Madison, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Jessica",
+    "B": "Madison",
+    "C": "Kyle",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "William and Kate visited the garden, and William handed a flower to",
+    "corrupted_prompt": "When William, Kate, and Alan met at the store, Alan gave a bottle to",
+    "A": "William",
+    "B": "Kate",
+    "C": "Alan",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Kyle visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Kyle, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Alex",
+    "B": "Kyle",
+    "C": "Victoria",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brian and Aaron left the house, Brian passed a note to",
+    "corrupted_prompt": "When Brian, Aaron, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Brian",
+    "B": "Aaron",
+    "C": "Sarah",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alan and Brandon went to the store, Alan gave a bottle to",
+    "corrupted_prompt": "When Alan, Brandon, and Frank met at the store, Frank gave a bottle to",
+    "A": "Alan",
+    "B": "Brandon",
+    "C": "Frank",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Jessica and William talked and Jessica gave a snack to",
+    "corrupted_prompt": "When Jessica, William, and Alan met at the store, Alan gave a bottle to",
+    "A": "Jessica",
+    "B": "William",
+    "C": "Alan",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, William and Brandon talked and William gave a snack to",
+    "corrupted_prompt": "When William, Brandon, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "William",
+    "B": "Brandon",
+    "C": "Kyle",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Jessica and Madison went to the store, Jessica gave a bottle to",
+    "corrupted_prompt": "When Jessica, Madison, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Jessica",
+    "B": "Madison",
+    "C": "Brandon",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Jessica talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Jessica, and George met at the store, George gave a bottle to",
+    "A": "Sarah",
+    "B": "Jessica",
+    "C": "George",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Elizabeth and David went to the store, Elizabeth gave a bottle to",
+    "corrupted_prompt": "When Elizabeth, David, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Elizabeth",
+    "B": "David",
+    "C": "Aaron",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Brian and Paul talked and Brian gave a snack to",
+    "corrupted_prompt": "When Brian, Paul, and William met at the store, William gave a bottle to",
+    "A": "Brian",
+    "B": "Paul",
+    "C": "William",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Elizabeth visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Elizabeth, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Anna",
+    "B": "Elizabeth",
+    "C": "Sarah",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Frank talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Frank, and David met at the store, David gave a bottle to",
+    "A": "Clark",
+    "B": "Frank",
+    "C": "David",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Anna and Brandon went to the store, Anna gave a bottle to",
+    "corrupted_prompt": "When Anna, Brandon, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Anna",
+    "B": "Brandon",
+    "C": "Sarah",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Brian and Madison went to the store, Brian gave a bottle to",
+    "corrupted_prompt": "When Brian, Madison, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Brian",
+    "B": "Madison",
+    "C": "Jessica",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Jessica and Alex visited the garden, and Jessica handed a flower to",
+    "corrupted_prompt": "When Jessica, Alex, and George met at the store, George gave a bottle to",
+    "A": "Jessica",
+    "B": "Alex",
+    "C": "George",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brian and William visited the garden, and Brian handed a flower to",
+    "corrupted_prompt": "When Brian, William, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Brian",
+    "B": "William",
+    "C": "Thomas",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After David and Anna left the house, David passed a note to",
+    "corrupted_prompt": "When David, Anna, and Brian met at the store, Brian gave a bottle to",
+    "A": "David",
+    "B": "Anna",
+    "C": "Brian",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Paul went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Paul, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "David",
+    "B": "Paul",
+    "C": "Kyle",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Victoria visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Victoria, and Madison met at the store, Madison gave a bottle to",
+    "A": "Thomas",
+    "B": "Victoria",
+    "C": "Madison",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Thomas and Brandon went to the store, Thomas gave a bottle to",
+    "corrupted_prompt": "When Thomas, Brandon, and Alex met at the store, Alex gave a bottle to",
+    "A": "Thomas",
+    "B": "Brandon",
+    "C": "Alex",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Frank and Kyle talked and Frank gave a snack to",
+    "corrupted_prompt": "When Frank, Kyle, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Frank",
+    "B": "Kyle",
+    "C": "Victoria",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kate and William went to the store, Kate gave a bottle to",
+    "corrupted_prompt": "When Kate, William, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Kate",
+    "B": "William",
+    "C": "Brandon",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, George and Alex talked and George gave a snack to",
+    "corrupted_prompt": "When George, Alex, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "George",
+    "B": "Alex",
+    "C": "Sarah",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Jessica left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Jessica, and William met at the store, William gave a bottle to",
+    "A": "Sarah",
+    "B": "Jessica",
+    "C": "William",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Victoria and Brian left the house, Victoria passed a note to",
+    "corrupted_prompt": "When Victoria, Brian, and Madison met at the store, Madison gave a bottle to",
+    "A": "Victoria",
+    "B": "Brian",
+    "C": "Madison",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Alan went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Alan, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Sarah",
+    "B": "Alan",
+    "C": "Victoria",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brandon and Frank left the house, Brandon passed a note to",
+    "corrupted_prompt": "When Brandon, Frank, and Clark met at the store, Clark gave a bottle to",
+    "A": "Brandon",
+    "B": "Frank",
+    "C": "Clark",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and David visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, David, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "George",
+    "B": "David",
+    "C": "Victoria",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Frank and Alex visited the garden, and Frank handed a flower to",
+    "corrupted_prompt": "When Frank, Alex, and David met at the store, David gave a bottle to",
+    "A": "Frank",
+    "B": "Alex",
+    "C": "David",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Thomas and Elizabeth left the house, Thomas passed a note to",
+    "corrupted_prompt": "When Thomas, Elizabeth, and George met at the store, George gave a bottle to",
+    "A": "Thomas",
+    "B": "Elizabeth",
+    "C": "George",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and Thomas went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, Thomas, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "William",
+    "B": "Thomas",
+    "C": "Sarah",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brian and Victoria left the house, Brian passed a note to",
+    "corrupted_prompt": "When Brian, Victoria, and Clark met at the store, Clark gave a bottle to",
+    "A": "Brian",
+    "B": "Victoria",
+    "C": "Clark",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When William and George went to the store, William gave a bottle to",
+    "corrupted_prompt": "When William, George, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "William",
+    "B": "George",
+    "C": "Aaron",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alex and Alan visited the garden, and Alex handed a flower to",
+    "corrupted_prompt": "When Alex, Alan, and Elizabeth met at the store, Elizabeth gave a bottle to",
+    "A": "Alex",
+    "B": "Alan",
+    "C": "Elizabeth",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Victoria and Kate went to the store, Victoria gave a bottle to",
+    "corrupted_prompt": "When Victoria, Kate, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Victoria",
+    "B": "Kate",
+    "C": "Sarah",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Thomas and Frank visited the garden, and Thomas handed a flower to",
+    "corrupted_prompt": "When Thomas, Frank, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Thomas",
+    "B": "Frank",
+    "C": "Sarah",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "David and Kyle visited the garden, and David handed a flower to",
+    "corrupted_prompt": "When David, Kyle, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "David",
+    "B": "Kyle",
+    "C": "Sarah",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Alex and Alan left the house, Alex passed a note to",
+    "corrupted_prompt": "When Alex, Alan, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alex",
+    "B": "Alan",
+    "C": "Sarah",
+    "correct": "Alan",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kate and Paul talked and Kate gave a snack to",
+    "corrupted_prompt": "When Kate, Paul, and Clark met at the store, Clark gave a bottle to",
+    "A": "Kate",
+    "B": "Paul",
+    "C": "Clark",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "George and Brandon visited the garden, and George handed a flower to",
+    "corrupted_prompt": "When George, Brandon, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "George",
+    "B": "Brandon",
+    "C": "Kyle",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Jessica and Kyle left the house, Jessica passed a note to",
+    "corrupted_prompt": "When Jessica, Kyle, and Kate met at the store, Kate gave a bottle to",
+    "A": "Jessica",
+    "B": "Kyle",
+    "C": "Kate",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Thomas went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Thomas, and George met at the store, George gave a bottle to",
+    "A": "Sarah",
+    "B": "Thomas",
+    "C": "George",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When David and Madison went to the store, David gave a bottle to",
+    "corrupted_prompt": "When David, Madison, and Frank met at the store, Frank gave a bottle to",
+    "A": "David",
+    "B": "Madison",
+    "C": "Frank",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and David left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, David, and Anna met at the store, Anna gave a bottle to",
+    "A": "Madison",
+    "B": "David",
+    "C": "Anna",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Frank talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Frank, and Paul met at the store, Paul gave a bottle to",
+    "A": "Alan",
+    "B": "Frank",
+    "C": "Paul",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "David and Brian visited the garden, and David handed a flower to",
+    "corrupted_prompt": "When David, Brian, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "David",
+    "B": "Brian",
+    "C": "Kyle",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Clark and Brian talked and Clark gave a snack to",
+    "corrupted_prompt": "When Clark, Brian, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Clark",
+    "B": "Brian",
+    "C": "Victoria",
+    "correct": "Brian",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Madison and Paul visited the garden, and Madison handed a flower to",
+    "corrupted_prompt": "When Madison, Paul, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Madison",
+    "B": "Paul",
+    "C": "Thomas",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Aaron and Alex talked and Aaron gave a snack to",
+    "corrupted_prompt": "When Aaron, Alex, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Aaron",
+    "B": "Alex",
+    "C": "Victoria",
+    "correct": "Alex",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Madison and David left the house, Madison passed a note to",
+    "corrupted_prompt": "When Madison, David, and Kyle met at the store, Kyle gave a bottle to",
+    "A": "Madison",
+    "B": "David",
+    "C": "Kyle",
+    "correct": "David",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and William visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, William, and Sarah met at the store, Sarah gave a bottle to",
+    "A": "Alan",
+    "B": "William",
+    "C": "Sarah",
+    "correct": "William",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "William and Paul visited the garden, and William handed a flower to",
+    "corrupted_prompt": "When William, Paul, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "William",
+    "B": "Paul",
+    "C": "Victoria",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Aaron and Anna talked and Aaron gave a snack to",
+    "corrupted_prompt": "When Aaron, Anna, and Clark met at the store, Clark gave a bottle to",
+    "A": "Aaron",
+    "B": "Anna",
+    "C": "Clark",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Elizabeth and Jessica talked and Elizabeth gave a snack to",
+    "corrupted_prompt": "When Elizabeth, Jessica, and Kate met at the store, Kate gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Jessica",
+    "C": "Kate",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alan and Kyle went to the store, Alan gave a bottle to",
+    "corrupted_prompt": "When Alan, Kyle, and William met at the store, William gave a bottle to",
+    "A": "Alan",
+    "B": "Kyle",
+    "C": "William",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Clark and Jessica visited the garden, and Clark handed a flower to",
+    "corrupted_prompt": "When Clark, Jessica, and Alex met at the store, Alex gave a bottle to",
+    "A": "Clark",
+    "B": "Jessica",
+    "C": "Alex",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Kyle and Sarah talked and Kyle gave a snack to",
+    "corrupted_prompt": "When Kyle, Sarah, and William met at the store, William gave a bottle to",
+    "A": "Kyle",
+    "B": "Sarah",
+    "C": "William",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Elizabeth and Anna left the house, Elizabeth passed a note to",
+    "corrupted_prompt": "When Elizabeth, Anna, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Elizabeth",
+    "B": "Anna",
+    "C": "Brandon",
+    "correct": "Anna",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and Jessica visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, Jessica, and William met at the store, William gave a bottle to",
+    "A": "Kyle",
+    "B": "Jessica",
+    "C": "William",
+    "correct": "Jessica",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Jessica and Brandon left the house, Jessica passed a note to",
+    "corrupted_prompt": "When Jessica, Brandon, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Jessica",
+    "B": "Brandon",
+    "C": "Victoria",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Kyle and Sarah went to the store, Kyle gave a bottle to",
+    "corrupted_prompt": "When Kyle, Sarah, and Alan met at the store, Alan gave a bottle to",
+    "A": "Kyle",
+    "B": "Sarah",
+    "C": "Alan",
+    "correct": "Sarah",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Alan and Brandon visited the garden, and Alan handed a flower to",
+    "corrupted_prompt": "When Alan, Brandon, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Alan",
+    "B": "Brandon",
+    "C": "Thomas",
+    "correct": "Brandon",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Madison left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Madison, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Sarah",
+    "B": "Madison",
+    "C": "Victoria",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Brandon and George visited the garden, and Brandon handed a flower to",
+    "corrupted_prompt": "When Brandon, George, and Clark met at the store, Clark gave a bottle to",
+    "A": "Brandon",
+    "B": "George",
+    "C": "Clark",
+    "correct": "George",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Kyle and Frank visited the garden, and Kyle handed a flower to",
+    "corrupted_prompt": "When Kyle, Frank, and Victoria met at the store, Victoria gave a bottle to",
+    "A": "Kyle",
+    "B": "Frank",
+    "C": "Victoria",
+    "correct": "Frank",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Sarah and Thomas talked and Sarah gave a snack to",
+    "corrupted_prompt": "When Sarah, Thomas, and Frank met at the store, Frank gave a bottle to",
+    "A": "Sarah",
+    "B": "Thomas",
+    "C": "Frank",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Paul and Aaron visited the garden, and Paul handed a flower to",
+    "corrupted_prompt": "When Paul, Aaron, and Jessica met at the store, Jessica gave a bottle to",
+    "A": "Paul",
+    "B": "Aaron",
+    "C": "Jessica",
+    "correct": "Aaron",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Anna and Kate visited the garden, and Anna handed a flower to",
+    "corrupted_prompt": "When Anna, Kate, and Aaron met at the store, Aaron gave a bottle to",
+    "A": "Anna",
+    "B": "Kate",
+    "C": "Aaron",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "William and Paul visited the garden, and William handed a flower to",
+    "corrupted_prompt": "When William, Paul, and David met at the store, David gave a bottle to",
+    "A": "William",
+    "B": "Paul",
+    "C": "David",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Alan and Victoria talked and Alan gave a snack to",
+    "corrupted_prompt": "When Alan, Victoria, and Clark met at the store, Clark gave a bottle to",
+    "A": "Alan",
+    "B": "Victoria",
+    "C": "Clark",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Sarah and Kyle left the house, Sarah passed a note to",
+    "corrupted_prompt": "When Sarah, Kyle, and David met at the store, David gave a bottle to",
+    "A": "Sarah",
+    "B": "Kyle",
+    "C": "David",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Alan and Victoria went to the store, Alan gave a bottle to",
+    "corrupted_prompt": "When Alan, Victoria, and David met at the store, David gave a bottle to",
+    "A": "Alan",
+    "B": "Victoria",
+    "C": "David",
+    "correct": "Victoria",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Aaron and Madison visited the garden, and Aaron handed a flower to",
+    "corrupted_prompt": "When Aaron, Madison, and Paul met at the store, Paul gave a bottle to",
+    "A": "Aaron",
+    "B": "Madison",
+    "C": "Paul",
+    "correct": "Madison",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "After Brandon and Kate left the house, Brandon passed a note to",
+    "corrupted_prompt": "When Brandon, Kate, and Paul met at the store, Paul gave a bottle to",
+    "A": "Brandon",
+    "B": "Kate",
+    "C": "Paul",
+    "correct": "Kate",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "When Sarah and Paul went to the store, Sarah gave a bottle to",
+    "corrupted_prompt": "When Sarah, Paul, and Brandon met at the store, Brandon gave a bottle to",
+    "A": "Sarah",
+    "B": "Paul",
+    "C": "Brandon",
+    "correct": "Paul",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Sarah and Clark visited the garden, and Sarah handed a flower to",
+    "corrupted_prompt": "When Sarah, Clark, and Thomas met at the store, Thomas gave a bottle to",
+    "A": "Sarah",
+    "B": "Clark",
+    "C": "Thomas",
+    "correct": "Clark",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Sarah and Kyle visited the garden, and Sarah handed a flower to",
+    "corrupted_prompt": "When Sarah, Kyle, and Brian met at the store, Brian gave a bottle to",
+    "A": "Sarah",
+    "B": "Kyle",
+    "C": "Brian",
+    "correct": "Kyle",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "Madison and Thomas visited the garden, and Madison handed a flower to",
+    "corrupted_prompt": "When Madison, Thomas, and William met at the store, William gave a bottle to",
+    "A": "Madison",
+    "B": "Thomas",
+    "C": "William",
+    "correct": "Thomas",
+    "template": "ABBA"
+  },
+  {
+    "prompt": "During the trip, Jessica and Elizabeth talked and Jessica gave a snack to",
+    "corrupted_prompt": "When Jessica, Elizabeth, and Clark met at the store, Clark gave a bottle to",
+    "A": "Jessica",
+    "B": "Elizabeth",
+    "C": "Clark",
+    "correct": "Elizabeth",
+    "template": "ABBA"
+  }
+]
