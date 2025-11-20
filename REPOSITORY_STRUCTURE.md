@@ -6,11 +6,6 @@ This repository contains a complete replication and extension of the Indirect Ob
 
 ### Core Documentation
 - **`README.md`** - Project overview, setup instructions, and quick start guide
-- **`RESEARCH_PAPER.md`** - Full research paper (12,500 words, 8 sections + 4 appendices)
-  - Complete replication results (87.5% head discovery success)
-  - Novel logit lens extension
-  - AI collaboration methodology
-  - All 8 figure placements marked
 
 ### Source Code
 ```
@@ -64,8 +59,6 @@ results/
 ├── figure7_logit_lens_average.png   # Logit lens trajectory (n=100)
 ├── figure8_individual_trajectories.png  # Spaghetti plot (10 examples)
 └── discovered_ioi_circuit.json      # Full circuit specification
-
-All figures: 300 DPI, publication-ready
 ```
 
 ### Validation
@@ -98,24 +91,6 @@ notebooks/
 - **Data-Driven Thresholds**: Statistical justification (mean ± σ)
 - **Comprehensive Testing**: 131 unit tests covering all functionality
 
-## 🔬 Research Paper Highlights
-
-### Structure (12,500 words)
-1. **Introduction** - IOI task, motivation, circuit overview
-2. **Methods** - 5 analysis techniques detailed
-3. **Results** - Replication validation across 8 metrics
-4. **Extension** - Novel logit lens quantification
-5. **Correctness** - 3 lines of evidence for circuit validity
-6. **Discussion** - 5 future research directions
-7. **AI Methodology** - Prompting strategies documented
-8. **Conclusion** - Achievements and implications
-
-### 8 Appendices
-- A: Implementation details
-- B: Bug documentation (8 critical bugs fixed)
-- C: Test coverage breakdown
-- D: Figure placement summary
-
 ## 🚀 Quick Start
 
 ### Generate All Figures
@@ -133,42 +108,9 @@ pytest tests/ -v
 jupyter notebook notebooks/ioi_replication_validation.ipynb
 ```
 
-## 📊 File Statistics
-
-- **Python Code**: 2,500+ lines (source + tests)
-- **Documentation**: 15,000+ words (research paper + README)
-- **Test Coverage**: 99.2% (130/131 tests passing)
-- **Figures**: 8 publication-ready visualizations
-- **Dataset**: 1,000 total examples (500 ABBA + 500 ABC)
-
-## 🎓 Citation
-
-If using this replication, please cite:
-
-1. **Original Paper**:
-   ```
-   Wang, K., Variengien, A., Conmy, A., Shlegeris, B., & Steinhardt, J. (2022).
-   Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small.
-   ICLR 2023.
-   ```
-
-2. **This Replication**:
-   ```
-   IOI Circuit Replication with AI Collaboration (2025).
-   GitHub: [repository URL]
-   ```
-
-## 📝 License
-
-[Specify license - typically MIT or Apache 2.0 for research code]
-
 ## 🙏 Acknowledgments
 
 - Original IOI paper authors: Wang, Variengien, Conmy, et al.
 - TransformerLens library: Neel Nanda
 - ARENA curriculum: Callum McDougall
 - Anthropic Claude (Scribe) for AI-assisted implementation
-
----
-
-**Repository Status**: Production-ready, publication-quality research artifact.
