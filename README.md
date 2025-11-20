@@ -4,8 +4,6 @@ A comprehensive implementation and validation of the **Indirect Object Identific
 
 This project successfully replicates the key findings of the paper with **87.5% circuit discovery success** (7/8 paper-specific heads found) and includes novel extensions like **logit lens analysis** for layer-by-layer visualization of how the model builds up its predictions.
 
-> **Research Paper**: See `RESEARCH_PAPER.md` for the complete 12,500-word research report including methodology, results, AI collaboration documentation, and all 8 figures.
-
 ## Overview
 
 The IOI task involves predicting the indirect object in sentences like:
@@ -32,7 +30,6 @@ The paper discovered a three-component circuit in GPT-2 small that solves this t
 ### Novel Additions
 - **Logit Lens Analysis**: Layer-by-layer visualization showing when the model "decides" the answer
 - **Comprehensive Testing**: 131 unit tests with 99.2% pass rate (130/131 passing)
-- **Research Paper**: 12,500-word paper documenting replication, methods, and AI collaboration
 - **Publication-Ready Figures**: 8 figures at 300 DPI with automated generation script
 
 ### Validation Results
@@ -309,8 +306,6 @@ python generate_all_figures.py
 7. **Figure 7 - Logit Lens Average**: Layer-by-layer evolution (n=100 with error bars)
 8. **Figure 8 - Individual Trajectories**: Spaghetti plot of 10 example predictions
 
-All figures are referenced in RESEARCH_PAPER.md with detailed captions.
-
 ## Implementation Highlights
 
 ### Data-Driven Threshold Selection
@@ -329,8 +324,6 @@ Quantifies layer-wise contributions showing:
 - Name movers contribute **6× more** than duplicate token heads
 - Clear layer-wise specialization matches paper's predictions
 - Layer 9 shows +60 logit contribution (dominant component)
-
-See RESEARCH_PAPER.md Section 4 for complete analysis.
 
 ## Comparison with Paper
 
